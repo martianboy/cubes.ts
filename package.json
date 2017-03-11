@@ -1,0 +1,25 @@
+{
+  "name": "cubes.ts",
+  "version": "1.0.0",
+  "description": "A statically typed client library for DataBrewery's Cubes OLAP server.",
+  "main": "dist/cubes.js",
+  "devDependencies": {
+    "ts-loader": "^2.0.1",
+    "tslint": "^4.5.1",
+    "webpack": "^2.2.1",
+    "typescript": "^2.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/martianboy/cubes.ts.git"
+  },
+  "author": "Abbas Mashayekh <martianboy2005@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/martianboy/cubes.ts/issues"
+  },
+  "homepage": "https://github.com/martianboy/cubes.ts#readme"
+}

@@ -1,0 +1,1716 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "2.2.1",
+  "hash": "45c12c4ca8197cd73dc3",
+  "time": 2222,
+  "publicPath": "",
+  "assetsByChunkName": {
+    "main": "cubes.js"
+  },
+  "assets": [
+    {
+      "name": "cubes.js",
+      "size": 40634,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "emitted": true
+    }
+  ],
+  "entrypoints": {
+    "main": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "cubes.js"
+      ]
+    }
+  },
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "extraAsync": false,
+      "size": 36792,
+      "names": [
+        "main"
+      ],
+      "files": [
+        "cubes.js"
+      ],
+      "hash": "d4e5cd16dacf34d1849f",
+      "parents": [],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/utils.ts",
+          "name": "./lib/utils.ts",
+          "index": 3,
+          "index2": 0,
+          "size": 999,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/browser.ts",
+          "issuerId": 10,
+          "issuerName": "./lib/browser.ts",
+          "profile": {
+            "factory": 658,
+            "building": 30
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/dimension.ts",
+              "module": "./lib/dimension.ts",
+              "moduleName": "./lib/dimension.ts",
+              "type": "cjs require",
+              "userRequest": "./utils",
+              "loc": "3:14-32"
+            },
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/hierarchy.ts",
+              "module": "./lib/hierarchy.ts",
+              "moduleName": "./lib/hierarchy.ts",
+              "type": "cjs require",
+              "userRequest": "./utils",
+              "loc": "3:14-32"
+            },
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/cell.ts",
+              "module": "./lib/cell.ts",
+              "moduleName": "./lib/cell.ts",
+              "type": "cjs require",
+              "userRequest": "./utils",
+              "loc": "3:14-32"
+            },
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/cuts.ts",
+              "module": "./lib/cuts.ts",
+              "moduleName": "./lib/cuts.ts",
+              "type": "cjs require",
+              "userRequest": "./utils",
+              "loc": "6:12-30"
+            },
+            {
+              "moduleId": 6,
+              "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/cube.ts",
+              "module": "./lib/cube.ts",
+              "moduleName": "./lib/cube.ts",
+              "type": "cjs require",
+              "userRequest": "./utils",
+              "loc": "3:14-32"
+            },
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/level.ts",
+              "module": "./lib/level.ts",
+              "moduleName": "./lib/level.ts",
+              "type": "cjs require",
+              "userRequest": "./utils",
+              "loc": "3:14-32"
+            },
+            {
+              "moduleId": 8,
+              "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/paths.ts",
+              "module": "./lib/paths.ts",
+              "moduleName": "./lib/paths.ts",
+              "type": "cjs require",
+              "userRequest": "./utils",
+              "loc": "3:12-30"
+            },
+            {
+              "moduleId": 10,
+              "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/browser.ts",
+              "module": "./lib/browser.ts",
+              "moduleName": "./lib/browser.ts",
+              "type": "cjs require",
+              "userRequest": "./utils",
+              "loc": "3:14-32"
+            },
+            {
+              "moduleId": 11,
+              "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/drilldown.ts",
+              "module": "./lib/drilldown.ts",
+              "moduleName": "./lib/drilldown.ts",
+              "type": "cjs require",
+              "userRequest": "./utils",
+              "loc": "6:12-30"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "depth": 2,
+          "source": "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nfunction _split_with_negative_lookbehind(str, regex, lb) {\n    var splits = [];\n    for (var match = regex.exec(str); match != null; match = regex.exec(str)) {\n        if (str.substr(match.index - lb.length, lb.length) !== lb) {\n            splits.push(str.substring(0, match.index));\n            str = str.substring(Math.min(match.index + match[0].length, str.length));\n            regex.lastIndex = 0;\n        }\n        else {\n            // match has the lookbehind, must exclude\n        }\n    }\n    splits.push(str);\n    return splits;\n}\nexports._split_with_negative_lookbehind = _split_with_negative_lookbehind;\nfunction find(arr, fn) {\n    var result = arr.filter(fn);\n    if (result.length > 0)\n        return result[0];\n    return undefined;\n}\nexports.find = find;\nfunction pick(obj, keys) {\n    var result = {};\n    for (var k in obj) {\n        result[k] = obj[k];\n    }\n    return result;\n}\nexports.pick = pick;\n"
+        },
+        {
+          "id": 1,
+          "identifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/dimension.ts",
+          "name": "./lib/dimension.ts",
+          "index": 5,
+          "index2": 4,
+          "size": 3559,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+          "issuerId": 14,
+          "issuerName": "./lib/index.ts",
+          "profile": {
+            "factory": 25,
+            "building": 642,
+            "dependencies": 154
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/cuts.ts",
+              "module": "./lib/cuts.ts",
+              "moduleName": "./lib/cuts.ts",
+              "type": "cjs require",
+              "userRequest": "./dimension",
+              "loc": "3:18-40"
+            },
+            {
+              "moduleId": 6,
+              "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/cube.ts",
+              "module": "./lib/cube.ts",
+              "moduleName": "./lib/cube.ts",
+              "type": "cjs require",
+              "userRequest": "./dimension",
+              "loc": "5:18-40"
+            },
+            {
+              "moduleId": 11,
+              "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/drilldown.ts",
+              "module": "./lib/drilldown.ts",
+              "moduleName": "./lib/drilldown.ts",
+              "type": "cjs require",
+              "userRequest": "./dimension",
+              "loc": "3:18-40"
+            },
+            {
+              "moduleId": 14,
+              "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+              "module": "./lib/index.ts",
+              "moduleName": "./lib/index.ts",
+              "type": "cjs require",
+              "userRequest": "./dimension",
+              "loc": "12:9-31"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "depth": 1,
+          "source": "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar utils_1 = require(\"./utils\");\nvar level_1 = require(\"./level\");\nvar hierarchy_1 = require(\"./hierarchy\");\nexports.DIMENSION_STRING_SEPARATOR_CHAR = ':';\nexports.DIMENSION_STRING_SEPARATOR = /:/g;\nexports.SPLIT_DIMENSION_STRING = '__within_split__';\nvar Dimension = (function () {\n    function Dimension(md) {\n        var _this = this;\n        this.name = md.name;\n        !md.label || (this.label = md.label);\n        !md.description || (this.description = md.description);\n        !md.default_hierarchy_name || (this.default_hierarchy_name = md.default_hierarchy_name);\n        !md.info || (this.info = md.info);\n        !md.role || (this.role = md.role);\n        !md.cardinality || (this.cardinality = md.cardinality);\n        !md.nonadditive || (this.nonadditive = md.nonadditive);\n        !md.is_flat || (this.is_flat = md.is_flat);\n        this.levels = [];\n        if (md.levels) {\n            this.levels = md.levels.map(function (level) { return new level_1.Level(_this.name, level); });\n        }\n        this.hierarchies = {};\n        if (md.hierarchies) {\n            for (var i in md.hierarchies) {\n                var hier = new hierarchy_1.Hierarchy(md.hierarchies[i], this);\n                this.hierarchies[hier.name] = hier;\n            }\n        }\n        // if no default_hierarchy_name defined, use first hierarchy's name.\n        if (!this.default_hierarchy_name && md.hierarchies\n            && md.hierarchies.length > 0) {\n            this.default_hierarchy_name = md.hierarchies[0].name;\n        }\n    }\n    Object.defineProperty(Dimension.prototype, \"default_hierarchy\", {\n        get: function () {\n            return this.hierarchies[this.default_hierarchy_name];\n        },\n        enumerable: true,\n        configurable: true\n    });\n    Dimension.prototype.level = function (name) {\n        return utils_1.find(this.levels, function (level) { return level.name === name; });\n    };\n    Dimension.prototype.toString = function () {\n        return this.name;\n    };\n    Object.defineProperty(Dimension.prototype, \"display_label\", {\n        get: function () {\n            return this.label || this.name;\n        },\n        enumerable: true,\n        configurable: true\n    });\n    Object.defineProperty(Dimension.prototype, \"isDateDimension\", {\n        get: function () {\n            // Inform if a dimension is a date dimension and can be used as a date\n            // filter (i.e. with date selection tool).\n            return ((this.role === 'time') &&\n                ((!('cv-datefilter' in this.info)) || (this.info['cv-datefilter'] === true)));\n        },\n        enumerable: true,\n        configurable: true\n    });\n    Object.defineProperty(Dimension.prototype, \"hierarchies_count\", {\n        get: function () {\n            var _this = this;\n            return Object.keys(this.hierarchies).reduce(function (count, hiename) {\n                if (_this.hierarchies.hasOwnProperty(hiename))\n                    return count + 1;\n                return count;\n            }, 0);\n        },\n        enumerable: true,\n        configurable: true\n    });\n    return Dimension;\n}());\nexports.Dimension = Dimension;\nexports.SPLIT_DIMENSION = new Dimension({\n    name: exports.SPLIT_DIMENSION_STRING,\n    label: 'Matches Filters',\n    hierarchies: [{ name: 'default', levels: [exports.SPLIT_DIMENSION_STRING] }],\n    levels: [{ name: exports.SPLIT_DIMENSION_STRING, attributes: [{ name: exports.SPLIT_DIMENSION_STRING }], label: 'Matches Filters' }]\n});\n"
+        },
+        {
+          "id": 2,
+          "identifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/hierarchy.ts",
+          "name": "./lib/hierarchy.ts",
+          "index": 8,
+          "index2": 3,
+          "size": 1389,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+          "issuerId": 14,
+          "issuerName": "./lib/index.ts",
+          "profile": {
+            "factory": 26,
+            "building": 697,
+            "dependencies": 98
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/dimension.ts",
+              "module": "./lib/dimension.ts",
+              "moduleName": "./lib/dimension.ts",
+              "type": "cjs require",
+              "userRequest": "./hierarchy",
+              "loc": "5:18-40"
+            },
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/cuts.ts",
+              "module": "./lib/cuts.ts",
+              "moduleName": "./lib/cuts.ts",
+              "type": "cjs require",
+              "userRequest": "./hierarchy",
+              "loc": "4:18-40"
+            },
+            {
+              "moduleId": 11,
+              "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/drilldown.ts",
+              "module": "./lib/drilldown.ts",
+              "moduleName": "./lib/drilldown.ts",
+              "type": "cjs require",
+              "userRequest": "./hierarchy",
+              "loc": "4:18-40"
+            },
+            {
+              "moduleId": 14,
+              "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+              "module": "./lib/index.ts",
+              "moduleName": "./lib/index.ts",
+              "type": "cjs require",
+              "userRequest": "./hierarchy",
+              "loc": "14:9-31"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "depth": 1,
+          "source": "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar utils_1 = require(\"./utils\");\nexports.HIERARCHY_PREFIX_CHAR = '@';\nvar Hierarchy = (function () {\n    function Hierarchy(attrs, dimension) {\n        this.name = attrs.name;\n        this.label = attrs.label;\n        this.description = attrs.description;\n        this.info = attrs.info;\n        var level_names = attrs.levels || [];\n        this.levels = level_names.map(function (name) { return dimension.level(name); });\n    }\n    Hierarchy.prototype.toString = function () {\n        return exports.HIERARCHY_PREFIX_CHAR + this.name;\n    };\n    Hierarchy.prototype.display_label = function () {\n        return this.label || this.name;\n    };\n    Hierarchy.prototype.level_index = function (level) {\n        return this.levels.indexOf(utils_1.find(this.levels, function (lvl) { return lvl.name === level.name; }));\n    };\n    Hierarchy.prototype.readCell = function (cell, level_limit) {\n        var result = [];\n        for (var _i = 0, _a = this.levels; _i < _a.length; _i++) {\n            var level = _a[_i];\n            var info = level.readCell(cell);\n            if (info !== null)\n                result.push(info);\n            if (level_limit && level_limit.name === level.name)\n                break;\n        }\n        return result;\n    };\n    return Hierarchy;\n}());\nexports.Hierarchy = Hierarchy;\n"
+        },
+        {
+          "id": 3,
+          "identifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/cell.ts",
+          "name": "./lib/cell.ts",
+          "index": 2,
+          "index2": 7,
+          "size": 1533,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+          "issuerId": 14,
+          "issuerName": "./lib/index.ts",
+          "profile": {
+            "factory": 23,
+            "building": 260,
+            "dependencies": 538
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 9,
+              "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/aggregate-result.ts",
+              "module": "./lib/aggregate-result.ts",
+              "moduleName": "./lib/aggregate-result.ts",
+              "type": "cjs require",
+              "userRequest": "./cell",
+              "loc": "3:13-30"
+            },
+            {
+              "moduleId": 10,
+              "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/browser.ts",
+              "module": "./lib/browser.ts",
+              "moduleName": "./lib/browser.ts",
+              "type": "cjs require",
+              "userRequest": "./cell",
+              "loc": "4:13-30"
+            },
+            {
+              "moduleId": 14,
+              "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+              "module": "./lib/index.ts",
+              "moduleName": "./lib/index.ts",
+              "type": "cjs require",
+              "userRequest": "./cell",
+              "loc": "8:9-26"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "depth": 1,
+          "source": "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar utils_1 = require(\"./utils\");\nvar cuts_1 = require(\"./cuts\");\nvar Cell = (function () {\n    function Cell(cube, cuts) {\n        this.cube = cube;\n        this.cuts = cuts.map(function (prop) { return cuts_1.cut_from_aggregate_result(cube, prop); });\n    }\n    Cell.prototype.slice = function (new_cut) {\n        var cuts = [];\n        var new_cut_pushed = false;\n        for (var _i = 0, _a = this.cuts; _i < _a.length; _i++) {\n            var cut = _a[_i];\n            if (cut.dimension === new_cut.dimension) {\n                cuts.push(new_cut.toCellProps());\n                new_cut_pushed = true;\n            }\n            else {\n                cuts.push(cut.toCellProps());\n            }\n        }\n        if (!new_cut_pushed) {\n            cuts.push(new_cut.toCellProps());\n        }\n        return new Cell(this.cube, cuts);\n    };\n    Cell.prototype.cut_for_dimension = function (name) {\n        return utils_1.find(this.cuts, function (cut) { return cut.dimension.name === name; });\n    };\n    Cell.prototype.toString = function () {\n        return (this.cuts || []).map(function (cut) { return cut.toString(); })\n            .join(cuts_1.CUT_STRING_SEPARATOR_CHAR);\n    };\n    return Cell;\n}());\nexports.Cell = Cell;\nfunction cell_from_string(cube, cut_param_value) {\n    return new Cell(cube, cuts_1.cuts_from_string(cube, cut_param_value).map(function (cut) { return cut.toCellProps(); }));\n}\nexports.cell_from_string = cell_from_string;\n"
+        },
+        {
+          "id": 4,
+          "identifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/commons.ts",
+          "name": "./lib/commons.ts",
+          "index": 7,
+          "index2": 1,
+          "size": 2905,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+          "issuerId": 14,
+          "issuerName": "./lib/index.ts",
+          "profile": {
+            "factory": 24,
+            "building": 343
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 6,
+              "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/cube.ts",
+              "module": "./lib/cube.ts",
+              "moduleName": "./lib/cube.ts",
+              "type": "cjs require",
+              "userRequest": "./commons",
+              "loc": "4:16-36"
+            },
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/level.ts",
+              "module": "./lib/level.ts",
+              "moduleName": "./lib/level.ts",
+              "type": "cjs require",
+              "userRequest": "./commons",
+              "loc": "4:16-36"
+            },
+            {
+              "moduleId": 14,
+              "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+              "module": "./lib/index.ts",
+              "moduleName": "./lib/index.ts",
+              "type": "cjs require",
+              "userRequest": "./commons",
+              "loc": "9:9-29"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "depth": 1,
+          "source": "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar ENonAdditivity;\n(function (ENonAdditivity) {\n    ENonAdditivity[ENonAdditivity[\"None\"] = 0] = \"None\";\n    ENonAdditivity[ENonAdditivity[\"Time\"] = 1] = \"Time\";\n    ENonAdditivity[ENonAdditivity[\"All\"] = 2] = \"All\";\n})(ENonAdditivity || (ENonAdditivity = {}));\nvar Measure = (function () {\n    function Measure(props) {\n        this.name = props.name;\n        this.label = props.label;\n        this.order = props.order;\n        this.info = (props.info || {});\n        this.description = props.description;\n        this.format = props.format;\n        this.missing_value = props.missing_value;\n        switch (props.nonadditive) {\n            case 'none':\n                this.nonadditive = ENonAdditivity.None;\n                break;\n            case 'time':\n                this.nonadditive = ENonAdditivity.Time;\n                break;\n            case 'all':\n                this.nonadditive = ENonAdditivity.All;\n                break;\n        }\n        this.expression = props.expression;\n        if (props.aggregates) {\n            this.aggregates = props.aggregates;\n        }\n    }\n    return Measure;\n}());\nexports.Measure = Measure;\nvar MeasureAggregate = (function () {\n    function MeasureAggregate(props) {\n        this.name = props.name;\n        this.ref = props.ref;\n        this.label = props.label;\n        this.order = props.order;\n        this.info = (props.info || {});\n        this.description = props.description;\n        this.format = props.format;\n        this.missing_value = props.missing_value;\n        this.nonadditive = props.nonadditive;\n        this.function = props.function;\n        this.formula = props.formula;\n        this.expression = props.expression;\n        this.measure = props.measure;\n    }\n    return MeasureAggregate;\n}());\nexports.MeasureAggregate = MeasureAggregate;\nvar DetailAttribute = (function () {\n    function DetailAttribute(props) {\n        this.ref = props.ref;\n        this.name = props.name;\n        this.label = props.label;\n        this.order = props.order;\n        this.info = (props.info || {});\n        this.description = props.description;\n        this.format = props.format;\n        this.missing_value = props.missing_value;\n        this.locales = props.locales;\n    }\n    return DetailAttribute;\n}());\nexports.DetailAttribute = DetailAttribute;\nexports.ATTRIBUTE_STRING_SEPARATOR_CHAR = '.';\nvar Attribute = (function () {\n    function Attribute(props) {\n        this.ref = props.ref;\n        this.name = props.name;\n        this.label = props.label;\n        this.order = props.order;\n        this.info = (props.info || {});\n        this.description = props.description;\n        this.format = props.format;\n        this.missing_value = props.missing_value;\n        this.locales = props.locales;\n    }\n    return Attribute;\n}());\nexports.Attribute = Attribute;\n"
+        },
+        {
+          "id": 5,
+          "identifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/cuts.ts",
+          "name": "./lib/cuts.ts",
+          "index": 4,
+          "index2": 6,
+          "size": 7847,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+          "issuerId": 14,
+          "issuerName": "./lib/index.ts",
+          "profile": {
+            "factory": 25,
+            "building": 609,
+            "dependencies": 187
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/cell.ts",
+              "module": "./lib/cell.ts",
+              "moduleName": "./lib/cell.ts",
+              "type": "cjs require",
+              "userRequest": "./cuts",
+              "loc": "4:13-30"
+            },
+            {
+              "moduleId": 11,
+              "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/drilldown.ts",
+              "module": "./lib/drilldown.ts",
+              "moduleName": "./lib/drilldown.ts",
+              "type": "cjs require",
+              "userRequest": "./cuts",
+              "loc": "5:13-30"
+            },
+            {
+              "moduleId": 14,
+              "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+              "module": "./lib/index.ts",
+              "moduleName": "./lib/index.ts",
+              "type": "cjs require",
+              "userRequest": "./cuts",
+              "loc": "11:9-26"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "depth": 1,
+          "source": "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar dimension_1 = require(\"./dimension\");\nvar hierarchy_1 = require(\"./hierarchy\");\nvar paths = require(\"./paths\");\nvar utils = require(\"./utils\");\nexports.CUT_INVERSION_CHAR = '!';\nexports.RANGE_CUT_SEPARATOR_CHAR = '-';\nexports.SET_CUT_SEPARATOR_CHAR = ';';\nexports.CUT_STRING_SEPARATOR_CHAR = '|';\nexports.CUT_STRING_SEPARATOR = /\\|/g;\nexports.RANGE_CUT_SEPARATOR = /-/g;\nexports.SET_CUT_SEPARATOR = /;/g;\nexports.CUT_PARSE_REGEXP = new RegExp('^(' + exports.CUT_INVERSION_CHAR + '?)(\\\\w+)(?:' + hierarchy_1.HIERARCHY_PREFIX_CHAR + '(\\\\w+))?' + dimension_1.DIMENSION_STRING_SEPARATOR_CHAR + '(.*)$');\nvar SerializedCut = (function () {\n    function SerializedCut() {\n    }\n    SerializedCut.prototype.toString = function (cube) {\n        var invert = this.invert ? '!' : '';\n        var dimParts = cube.dimensionParts(this.dimension);\n        var cutDim = dimParts.dimension.name + (dimParts.hierarchy.name !== 'default' ? '@' + dimParts.hierarchy.name : '');\n        return invert + cutDim + ':' + this.value;\n    };\n    SerializedCut.prototype.toCut = function (cube) {\n        return cut_from_string(cube, serializedCutToString(cube, this));\n    };\n    return SerializedCut;\n}());\nexports.SerializedCut = SerializedCut;\nvar PointCut = (function () {\n    function PointCut(dimension, hierarchy, path, invert, level_depth) {\n        this.type = 'point';\n        this.dimension = dimension;\n        this.hierarchy = dimension.hierarchies[hierarchy] || dimension.default_hierarchy;\n        this.path = path;\n        this.level_depth = level_depth;\n        this.invert = !!invert;\n        this.level = this.hierarchy.levels[level_depth - 1];\n    }\n    PointCut.prototype.toString = function () {\n        var path_str = paths.string_from_path(this.path);\n        return (this.invert ? exports.CUT_INVERSION_CHAR : '') +\n            this.dimension.toString() +\n            (this.hierarchy.toString() || '') +\n            dimension_1.DIMENSION_STRING_SEPARATOR_CHAR +\n            path_str;\n    };\n    PointCut.prototype.toCellProps = function () {\n        return {\n            type: 'point',\n            dimension: this.dimension.name,\n            hierarchy: this.hierarchy.name,\n            path: this.path,\n            level_depth: this.level_depth,\n            invert: this.invert\n        };\n    };\n    return PointCut;\n}());\nexports.PointCut = PointCut;\nvar SetCut = (function () {\n    function SetCut(dimension, hierarchy, path_set, invert, level_depth) {\n        this.type = 'set';\n        this.dimension = dimension;\n        this.hierarchy = dimension.hierarchies[hierarchy] || dimension.default_hierarchy;\n        this.paths = path_set;\n        this.level_depth = level_depth;\n        this.invert = !!invert;\n        this.level = this.hierarchy.levels[level_depth - 1];\n    }\n    SetCut.prototype.toString = function () {\n        var path_str = this.paths.map(paths.string_from_path).join(exports.SET_CUT_SEPARATOR_CHAR);\n        return (this.invert ? exports.CUT_INVERSION_CHAR : '') +\n            this.dimension.toString() +\n            (this.hierarchy.toString() || '') +\n            dimension_1.DIMENSION_STRING_SEPARATOR_CHAR +\n            path_str;\n    };\n    SetCut.prototype.toCellProps = function () {\n        return {\n            type: 'point',\n            dimension: this.dimension.name,\n            hierarchy: this.hierarchy.name,\n            paths: this.paths,\n            level_depth: this.level_depth,\n            invert: this.invert\n        };\n    };\n    return SetCut;\n}());\nexports.SetCut = SetCut;\nvar RangeCut = (function () {\n    function RangeCut(dimension, hierarchy, from_path, to_path, invert, level_depth) {\n        this.type = 'range';\n        this.dimension = dimension;\n        this.hierarchy = dimension.hierarchies[hierarchy] || dimension.default_hierarchy;\n        if (from_path === null && to_path === null) {\n            throw 'Either from_path or to_path must be defined for RangeCut';\n        }\n        this.from_path = from_path;\n        this.to_path = to_path;\n        this.level_depth = level_depth;\n        this.invert = !!invert;\n    }\n    RangeCut.prototype.toString = function () {\n        var path_str = paths.string_from_path(this.from_path) +\n            exports.RANGE_CUT_SEPARATOR_CHAR +\n            paths.string_from_path(this.to_path);\n        return (this.invert ? exports.CUT_INVERSION_CHAR : '') +\n            this.dimension.toString() +\n            (this.hierarchy.toString() || '') +\n            dimension_1.DIMENSION_STRING_SEPARATOR_CHAR +\n            path_str;\n    };\n    RangeCut.prototype.toCellProps = function () {\n        return {\n            type: 'point',\n            dimension: this.dimension.name,\n            hierarchy: this.hierarchy.name,\n            from_path: this.from_path,\n            to_path: this.to_path,\n            level_depth: this.level_depth,\n            invert: this.invert\n        };\n    };\n    return RangeCut;\n}());\nexports.RangeCut = RangeCut;\nfunction cut_from_aggregate_result(cube, cut) {\n    var dim = cube.dimension(cut.dimension);\n    switch (cut.type) {\n        case 'point':\n            return new PointCut(dim, cut.hierarchy, cut.path, cut.invert, cut.level_depth);\n        case 'set':\n            return new SetCut(dim, cut.hierarchy, cut.paths, cut.invert, cut.level_depth);\n        case 'range':\n            return new RangeCut(dim, cut.hierarchy, cut.from_path, cut.to_path, cut.invert, cut.level_depth);\n        default:\n            return undefined;\n    }\n}\nexports.cut_from_aggregate_result = cut_from_aggregate_result;\nfunction cut_from_string(cube, cut_string) {\n    // parse out invert, dim_name, hierarchy, and path thingy\n    var match = exports.CUT_PARSE_REGEXP.exec(cut_string);\n    if (!match) {\n        return null;\n    }\n    var invert = !!(match[1]), dim_name = match[2], hierarchy = match[3] || null, path_thingy = match[4];\n    var dimension = cube.dimension(dim_name);\n    // if path thingy splits on set separator, make a SetCut.\n    var splits = utils._split_with_negative_lookbehind(path_thingy, exports.SET_CUT_SEPARATOR, '\\\\');\n    if (splits.length > 1) {\n        var _paths = splits.map(function (ss) { return paths.path_from_string(ss); });\n        return new SetCut(dimension, hierarchy, _paths, invert, _paths[0].length);\n    }\n    // else if path thingy splits into two on range separator, make a RangeCut.\n    splits = utils._split_with_negative_lookbehind(path_thingy, exports.RANGE_CUT_SEPARATOR, '\\\\');\n    if (splits.length === 2) {\n        var from_path = splits[0] ? paths.path_from_string(splits[0]) : null;\n        var to_path = splits[1] ? paths.path_from_string(splits[1]) : null;\n        return new RangeCut(dimension, hierarchy, from_path, to_path, invert, from_path.length);\n    }\n    // else it's a PointCut.\n    var path = paths.path_from_string(path_thingy);\n    return new PointCut(dimension, hierarchy, path, invert, path.length);\n}\nexports.cut_from_string = cut_from_string;\nfunction cuts_from_string(cube, cut_param_value) {\n    var cut_strings = utils._split_with_negative_lookbehind(cut_param_value, exports.CUT_STRING_SEPARATOR, '\\\\');\n    return (cut_strings || []).map(function (e) { return cut_from_string(cube, e); });\n}\nexports.cuts_from_string = cuts_from_string;\nfunction serializedCutToString(cube, e) {\n    var invert = e.invert ? '!' : '';\n    var dimParts = cube.dimensionParts(e.dimension);\n    var cutDim = dimParts.dimension.name + (dimParts.hierarchy.name !== 'default' ? '@' + dimParts.hierarchy.name : '');\n    return invert + cutDim + ':' + e.value;\n}\nexports.serializedCutToString = serializedCutToString;\nfunction cutFromSerializedCut(cube, serializedCut) {\n    return cut_from_string(cube, serializedCutToString(cube, serializedCut));\n}\nexports.cutFromSerializedCut = cutFromSerializedCut;\n"
+        },
+        {
+          "id": 6,
+          "identifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/cube.ts",
+          "name": "./lib/cube.ts",
+          "index": 11,
+          "index2": 10,
+          "size": 4878,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+          "issuerId": 14,
+          "issuerName": "./lib/index.ts",
+          "profile": {
+            "factory": 24,
+            "building": 539,
+            "dependencies": 258
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 12,
+              "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/server.ts",
+              "module": "./lib/server.ts",
+              "moduleName": "./lib/server.ts",
+              "type": "cjs require",
+              "userRequest": "./cube",
+              "loc": "3:13-30"
+            },
+            {
+              "moduleId": 14,
+              "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+              "module": "./lib/index.ts",
+              "moduleName": "./lib/index.ts",
+              "type": "cjs require",
+              "userRequest": "./cube",
+              "loc": "10:9-26"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "depth": 1,
+          "source": "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar utils_1 = require(\"./utils\");\nvar commons_1 = require(\"./commons\");\nvar dimension_1 = require(\"./dimension\");\nvar Cube = (function () {\n    function Cube(metadata) {\n        this.name = metadata.name;\n        this.label = metadata.label;\n        this.description = metadata.description;\n        this.key = metadata.key;\n        this.info = metadata.info;\n        this.category = metadata.category;\n        this.features = metadata.features;\n        this.measures = (metadata.measures || []).map(function (m) { return new commons_1.Measure(m); });\n        this.aggregates = (metadata.aggregates || []).map(function (m) { return new commons_1.MeasureAggregate(m); });\n        this.details = (metadata.details || []).map(function (m) { return new commons_1.Attribute(m); });\n        this.dimensions = (metadata.dimensions || []).map(function (dim) { return new dimension_1.Dimension(dim); });\n    }\n    Cube.prototype.dimension = function (name) {\n        // Return a dimension with given name\n        return utils_1.find(this.dimensions, function (dim) { return dim.name === name; });\n    };\n    Cube.prototype.cvdim_dim = function (dimensionString) {\n        // Get a dimension by name. Accepts dimension hierarchy and level in the input string.\n        var dimname = dimensionString;\n        if (dimensionString.indexOf('@') > 0) {\n            dimname = dimensionString.split('@')[0];\n        }\n        else if (dimensionString.indexOf(':') > 0) {\n            dimname = dimensionString.split(':')[0];\n        }\n        return this.dimension(dimname);\n    };\n    Cube.prototype.dimensionParts = function (dimensionString) {\n        // Get a dimension info by name. Accepts dimension hierarchy and level in the input string.\n        var dim = this.cvdim_dim(dimensionString);\n        var hie = dim.default_hierarchy;\n        if (dimensionString.indexOf('@') > 0) {\n            var hierarchyName = dimensionString.split('@')[1].split(':')[0];\n            hie = dim.hierarchies[hierarchyName];\n        }\n        var lev;\n        var levelIndex = 0;\n        if (dimensionString.indexOf(':') > 0) {\n            var levelname = dimensionString.split(':')[1];\n            lev = dim.level(levelname);\n            for (levelIndex = 0; levelIndex < hie.levels.length && hie.levels[levelIndex] !== lev; levelIndex++)\n                ;\n        }\n        else {\n            lev = hie.levels[0];\n        }\n        var depth = null;\n        for (var i = 0; i < hie.levels.length; i++) {\n            if (lev.name === hie.levels[i].name) {\n                depth = i + 1;\n                break;\n            }\n        }\n        return {\n            dimension: dim,\n            level: lev,\n            levelIndex: levelIndex,\n            depth: depth,\n            hierarchy: hie,\n            label: dim.label + (hie.name !== 'default' ? (' - ' + hie.label) : '') + (hie.levels.length > 1 ? (' / ' + lev.label) : ''),\n            labelShort: (dim.label + (hie.levels.length > 1 ? (' / ' + lev.label) : '')),\n            labelNoLevel: dim.label + (hie.name !== 'default' ? (' - ' + hie.label) : ''),\n            fullDrilldownValue: dim.name + (hie.name !== 'default' ? ('@' + hie.name) : '') + ':' + lev.name,\n            drilldownDimension: dim.name + '@' + hie.name + ':' + lev.name,\n            drilldownDimensionPlus: (hie.levels.length > 1 && levelIndex < hie.levels.length - 1) ? (dim.name + '@' + hie.name + ':' + hie.levels[levelIndex + 1].name) : null,\n            drilldownDimensionMinus: (hie.levels.length > 1 && levelIndex > 0) ? (dim.name + '@' + hie.name + ':' + hie.levels[levelIndex - 1].name) : null,\n            cutDimension: dim.name + (hie.name !== 'default' ? '@' + hie.name : '')\n        };\n    };\n    Cube.prototype.dimensionPartsFromCut = function (cut) {\n        var parts = this.dimensionParts(cut.dimension);\n        if (!parts)\n            return null;\n        var depth = (cut.value.split(';')[0].match(/,/g) || []).length + 1;\n        var dimstring = parts.dimension.name + '@' + parts.hierarchy.name + ':' + parts.hierarchy.levels[depth - 1].name;\n        return this.dimensionParts(dimstring);\n    };\n    Cube.prototype.measureAggregates = function (measureName) {\n        return this.aggregates.filter(function (ia) { return measureName ? ia.measure === measureName : !ia.measure; });\n    };\n    Cube.prototype.aggregateFromName = function (aggregateName) {\n        return utils_1.find(this.aggregates, function (ia) { return aggregateName ? ia.name === aggregateName : !ia.measure; });\n    };\n    Object.defineProperty(Cube.prototype, \"dateDimensions\", {\n        get: function () {\n            return this.dimensions.filter(function (d) { return d.isDateDimension; });\n        },\n        enumerable: true,\n        configurable: true\n    });\n    return Cube;\n}());\nexports.Cube = Cube;\n"
+        },
+        {
+          "id": 7,
+          "identifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/level.ts",
+          "name": "./lib/level.ts",
+          "index": 6,
+          "index2": 2,
+          "size": 3717,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+          "issuerId": 14,
+          "issuerName": "./lib/index.ts",
+          "profile": {
+            "factory": 27,
+            "building": 718,
+            "dependencies": 76
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/dimension.ts",
+              "module": "./lib/dimension.ts",
+              "moduleName": "./lib/dimension.ts",
+              "type": "cjs require",
+              "userRequest": "./level",
+              "loc": "4:14-32"
+            },
+            {
+              "moduleId": 14,
+              "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+              "module": "./lib/index.ts",
+              "moduleName": "./lib/index.ts",
+              "type": "cjs require",
+              "userRequest": "./level",
+              "loc": "15:9-27"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "depth": 1,
+          "source": "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar utils_1 = require(\"./utils\");\nvar commons_1 = require(\"./commons\");\nvar DIMENSION_STRING_SEPARATOR_CHAR = ':';\nvar Level = (function () {\n    function Level(dimension_name, props) {\n        this.dimension_name = dimension_name;\n        this.name = props.name;\n        !props.label || (this.label = props.label);\n        !props.description || (this.description = props.description);\n        !props.info || (this.info = props.info);\n        this._key = props.key;\n        this._label_attribute = props.label_attribute;\n        this._order_attribute = props.order_attribute;\n        !props.role || (this.role = props.role);\n        !props.cardinality || (this.cardinality = props.cardinality);\n        this.nonadditive = props.nonadditive;\n        this.attributes = [];\n        if (props.attributes) {\n            this.attributes = props.attributes.map(function (attr) { return new commons_1.Attribute(attr); });\n        }\n    }\n    Object.defineProperty(Level.prototype, \"key\", {\n        get: function () {\n            var _this = this;\n            return utils_1.find(this.attributes, function (attr) { return attr.name === _this._key; }) || this.attributes[0];\n        },\n        enumerable: true,\n        configurable: true\n    });\n    Object.defineProperty(Level.prototype, \"label_attribute\", {\n        get: function () {\n            var _this = this;\n            // Label attribute is either explicitly specified or it is second attribute if there are more\n            // than one, otherwise it is first\n            var the_attr = null;\n            if (this._label_attribute) {\n                the_attr = utils_1.find(this.attributes, function (attr) { return attr.name === _this._label_attribute; });\n            }\n            return the_attr || this.key;\n        },\n        enumerable: true,\n        configurable: true\n    });\n    Object.defineProperty(Level.prototype, \"order_attribute\", {\n        get: function () {\n            var _this = this;\n            var the_attr = null;\n            if (this._order_attribute) {\n                the_attr = utils_1.find(this.attributes, function (attr) { return attr.name === _this._order_attribute; });\n            }\n            return the_attr || this.key;\n        },\n        enumerable: true,\n        configurable: true\n    });\n    Level.prototype.toString = function () {\n        return this.name;\n    };\n    Level.prototype.readCell = function (cell) {\n        if (!(this.key.ref in cell))\n            return null;\n        var result = {\n            key: cell[this.key.ref],\n            label: cell[this.label_attribute.ref],\n            orderValue: cell[this.order_attribute.ref],\n            info: {}\n        };\n        for (var _i = 0, _a = this.attributes; _i < _a.length; _i++) {\n            var attribute = _a[_i];\n            result.info[attribute.ref] = cell[attribute.ref];\n        }\n        return result;\n    };\n    Object.defineProperty(Level.prototype, \"display_name\", {\n        get: function () {\n            return this.label || this.name;\n        },\n        enumerable: true,\n        configurable: true\n    });\n    Object.defineProperty(Level.prototype, \"full_name\", {\n        get: function () {\n            return this.dimension_name + commons_1.ATTRIBUTE_STRING_SEPARATOR_CHAR + this.name;\n        },\n        enumerable: true,\n        configurable: true\n    });\n    Object.defineProperty(Level.prototype, \"full_name_for_drilldown\", {\n        get: function () {\n            return this.dimension_name + DIMENSION_STRING_SEPARATOR_CHAR + this.name;\n        },\n        enumerable: true,\n        configurable: true\n    });\n    return Level;\n}());\nexports.Level = Level;\n"
+        },
+        {
+          "id": 8,
+          "identifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/paths.ts",
+          "name": "./lib/paths.ts",
+          "index": 9,
+          "index2": 5,
+          "size": 1274,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+          "issuerId": 14,
+          "issuerName": "./lib/index.ts",
+          "profile": {
+            "factory": 27,
+            "building": 735,
+            "dependencies": 59
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/cuts.ts",
+              "module": "./lib/cuts.ts",
+              "moduleName": "./lib/cuts.ts",
+              "type": "cjs require",
+              "userRequest": "./paths",
+              "loc": "5:12-30"
+            },
+            {
+              "moduleId": 14,
+              "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+              "module": "./lib/index.ts",
+              "moduleName": "./lib/index.ts",
+              "type": "cjs require",
+              "userRequest": "./paths",
+              "loc": "16:9-27"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "depth": 1,
+          "source": "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar utils = require(\"./utils\");\nexports.PATH_PART_ESCAPE_PATTERN = /([\\\\!|:;,-])/g;\nexports.PATH_PART_UNESCAPE_PATTERN = /\\\\([\\\\!|:;,-])/g;\nexports.NULL_PART_STRING = '__null__';\nexports.PATH_STRING_SEPARATOR_CHAR = ',';\nexports.PATH_STRING_SEPARATOR = /,/g;\nfunction _escape_path_part(part) {\n    if (part == null) {\n        return exports.NULL_PART_STRING;\n    }\n    return part.toString().replace(exports.PATH_PART_ESCAPE_PATTERN, function (match, b1) { return '\\\\' + b1; });\n}\nfunction _unescape_path_part(part) {\n    if (part === exports.NULL_PART_STRING) {\n        return null;\n    }\n    return part.replace(exports.PATH_PART_UNESCAPE_PATTERN, function (match, b1) { return b1; });\n}\nfunction string_from_path(path) {\n    return (path || []).map(function (element) { return _escape_path_part(element); }).join(exports.PATH_STRING_SEPARATOR_CHAR);\n}\nexports.string_from_path = string_from_path;\nfunction path_from_string(path_string) {\n    var paths = utils._split_with_negative_lookbehind(path_string, exports.PATH_STRING_SEPARATOR, '\\\\');\n    var parsed = (paths || []).map(function (e) { return _unescape_path_part(e); });\n    return parsed;\n}\nexports.path_from_string = path_from_string;\n"
+        },
+        {
+          "id": 9,
+          "identifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/aggregate-result.ts",
+          "name": "./lib/aggregate-result.ts",
+          "index": 1,
+          "index2": 8,
+          "size": 622,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+          "issuerId": 14,
+          "issuerName": "./lib/index.ts",
+          "profile": {
+            "factory": 21,
+            "building": 92,
+            "dependencies": 1
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 14,
+              "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+              "module": "./lib/index.ts",
+              "moduleName": "./lib/index.ts",
+              "type": "cjs require",
+              "userRequest": "./aggregate-result",
+              "loc": "6:9-38"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "depth": 1,
+          "source": "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar cell_1 = require(\"./cell\");\nvar AggregateResult = (function () {\n    function AggregateResult(cube, props) {\n        this.cell = new cell_1.Cell(cube, props.cell);\n        this.summary = props.summary;\n        this.cells = props.cells;\n        this.total_cell_count = props.total_cell_count;\n        this.aggregates = props.aggregates;\n        this.levels = props.levels;\n        this.attributes = props.attributes;\n        this.has_split = props.has_split;\n    }\n    return AggregateResult;\n}());\nexports.AggregateResult = AggregateResult;\n"
+        },
+        {
+          "id": 10,
+          "identifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/browser.ts",
+          "name": "./lib/browser.ts",
+          "index": 10,
+          "index2": 9,
+          "size": 671,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+          "issuerId": 14,
+          "issuerName": "./lib/index.ts",
+          "profile": {
+            "factory": 23,
+            "building": 139,
+            "dependencies": 0
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 14,
+              "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+              "module": "./lib/index.ts",
+              "moduleName": "./lib/index.ts",
+              "type": "cjs require",
+              "userRequest": "./browser",
+              "loc": "7:9-29"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "depth": 1,
+          "source": "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar utils_1 = require(\"./utils\");\nvar cell_1 = require(\"./cell\");\nvar Browser = (function () {\n    function Browser(server, cube) {\n        this.server = server;\n        this.cube = cube;\n    }\n    Browser.prototype.full_cube = function () {\n        return new cell_1.Cell(this.cube, []);\n    };\n    Browser.prototype.aggregate = function (args) {\n        return this.server.query('aggregate', this.cube.name, utils_1.pick(args || {}, [\n            'cut', 'measure', 'drilldown', 'split', 'order', 'page', 'pagesize'\n        ]), {});\n    };\n    return Browser;\n}());\nexports.Browser = Browser;\n"
+        },
+        {
+          "id": 11,
+          "identifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/drilldown.ts",
+          "name": "./lib/drilldown.ts",
+          "index": 12,
+          "index2": 11,
+          "size": 3089,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+          "issuerId": 14,
+          "issuerName": "./lib/index.ts",
+          "profile": {
+            "factory": 26,
+            "building": 674,
+            "dependencies": 121
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 14,
+              "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+              "module": "./lib/index.ts",
+              "moduleName": "./lib/index.ts",
+              "type": "cjs require",
+              "userRequest": "./drilldown",
+              "loc": "13:9-31"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "depth": 1,
+          "source": "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar dimension_1 = require(\"./dimension\");\nvar hierarchy_1 = require(\"./hierarchy\");\nvar cuts_1 = require(\"./cuts\");\nvar utils = require(\"./utils\");\nexports.DRILLDOWN_PARSE_REGEXP = new RegExp('^(\\\\w+)(?:' + hierarchy_1.HIERARCHY_PREFIX_CHAR + '(\\\\w+))?(?:' + dimension_1.DIMENSION_STRING_SEPARATOR_CHAR + '(\\\\w+))?$');\nvar Drilldown = (function () {\n    function Drilldown(dimension, hierarchy, level) {\n        this.dimension = dimension;\n        this.hierarchy = hierarchy ? dimension.hierarchies[hierarchy] : dimension.default_hierarchy;\n        this.level = dimension.level(level) || this.hierarchy.levels[0];\n        if (!this.hierarchy)\n            throw 'Drilldown cannot recognize hierarchy ' + hierarchy + ' for dimension ' + dimension.toString();\n        if (!this.level)\n            throw 'Drilldown cannot recognize level ' + level + ' for dimension ' + dimension.toString();\n    }\n    Drilldown.prototype.toString = function () {\n        return '' + this.dimension.toString() + this.hierarchy.toString() +\n            dimension_1.DIMENSION_STRING_SEPARATOR_CHAR + this.level.toString();\n    };\n    Drilldown.prototype.keysInResultCell = function () {\n        var _this = this;\n        var saw_this_level = false;\n        return this.hierarchy.levels\n            .filter(function (level) { return (level.key === _this.level.key && (saw_this_level = true)) || (!saw_this_level); })\n            .map(function (level) { return level.key.ref; });\n    };\n    Drilldown.prototype.labelsInResultCell = function () {\n        var _this = this;\n        var saw_this_level = false;\n        return this.hierarchy.levels\n            .filter(function (level) { return (level.key === _this.level.key && (saw_this_level = true)) || (!saw_this_level); })\n            .map(function (level) { return level.label_attribute.ref; });\n    };\n    return Drilldown;\n}());\nexports.default = Drilldown;\nfunction drilldown_from_string(cube, drilldown_string) {\n    var match = exports.DRILLDOWN_PARSE_REGEXP.exec(drilldown_string);\n    if (!match) {\n        return null;\n    }\n    var dim_name = match[1], hierarchy = match[2] || null, level = match[3] || null;\n    var dimension = cube.dimension(dim_name);\n    if (!dimension)\n        if (dim_name === dimension_1.SPLIT_DIMENSION_STRING)\n            dimension = dimension_1.SPLIT_DIMENSION;\n        else\n            return null;\n    return new Drilldown(dimension, hierarchy, level);\n}\nexports.drilldown_from_string = drilldown_from_string;\nfunction drilldowns_from_string(cube, drilldown_param_value) {\n    var dd_strings = utils._split_with_negative_lookbehind(drilldown_param_value, cuts_1.CUT_STRING_SEPARATOR, '\\\\');\n    return (dd_strings || []).map(function (e) { return drilldown_from_string(cube, e); });\n}\nexports.drilldowns_from_string = drilldowns_from_string;\nfunction drilldowns_to_string(drilldowns) {\n    return drilldowns.map(function (d) { return d.toString(); }).join(cuts_1.CUT_STRING_SEPARATOR_CHAR);\n}\nexports.drilldowns_to_string = drilldowns_to_string;\n"
+        },
+        {
+          "id": 12,
+          "identifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/server.ts",
+          "name": "./lib/server.ts",
+          "index": 13,
+          "index2": 13,
+          "size": 2225,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+          "issuerId": 14,
+          "issuerName": "./lib/index.ts",
+          "profile": {
+            "factory": 28,
+            "building": 784,
+            "dependencies": 1
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 14,
+              "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+              "module": "./lib/index.ts",
+              "moduleName": "./lib/index.ts",
+              "type": "cjs require",
+              "userRequest": "./server",
+              "loc": "17:9-28"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "depth": 1,
+          "source": "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar cube_1 = require(\"./cube\");\nvar query_serializer_1 = require(\"./query-serializer\");\nfunction getJSON(url) {\n    return fetch(url, {\n        method: 'GET',\n        headers: {\n            'Content-Type': 'application/json'\n        }\n    }).catch(function (reason) { throw reason; })\n        .then(function (response) { return response.json(); });\n}\nvar Server = (function () {\n    function Server(baseUrl) {\n        this.baseUrl = baseUrl;\n        this._cube_list = [];\n        this._cubes = {};\n    }\n    Server.prototype.query = function (query, cube_name, args, options) {\n        var query_args = query_serializer_1.default(args);\n        var url = this.baseUrl + \"cube/\" + cube_name + \"/\" + query;\n        if (query_args.length > 0)\n            url += '?' + query_args;\n        return getJSON(url);\n    };\n    Server.prototype.connect = function () {\n        var _this = this;\n        var cubeInfoPromise = getJSON(this.baseUrl + '/info');\n        return cubeInfoPromise.then(function (info) {\n            _this.server_version = info.cubes_version;\n            _this.cubes_version = info.cubes_version;\n            _this.api_version = info.api_version;\n            _this.info = info;\n            return _this.load_cube_list();\n        }, function (err) { throw err; });\n    };\n    Server.prototype.load_cube_list = function () {\n        var _this = this;\n        var cubesListPromise = getJSON(this.baseUrl + '/cubes');\n        return cubesListPromise.then(function (cubes_list) {\n            _this._cube_list = cubes_list;\n            return cubes_list;\n        }, function (err) { throw err; });\n    };\n    Server.prototype.get_cube = function (name) {\n        var _this = this;\n        if (name in this._cubes)\n            return Promise.resolve(this._cubes[name]);\n        var cubePromise = getJSON(this.baseUrl + '/cube/' + encodeURI(name) + '/model');\n        return cubePromise.then(function (cube_props) {\n            _this._cubes[name] = new cube_1.Cube(cube_props);\n            return _this._cubes[name];\n        }, function (err) { throw err; });\n    };\n    return Server;\n}());\nexports.Server = Server;\nexports.default = Server;\n"
+        },
+        {
+          "id": 13,
+          "identifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/query-serializer.ts",
+          "name": "./lib/query-serializer.ts",
+          "index": 14,
+          "index2": 12,
+          "size": 1525,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/server.ts",
+          "issuerId": 12,
+          "issuerName": "./lib/server.ts",
+          "profile": {
+            "factory": 11,
+            "building": 42
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 12,
+              "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/server.ts",
+              "module": "./lib/server.ts",
+              "moduleName": "./lib/server.ts",
+              "type": "cjs require",
+              "userRequest": "./query-serializer",
+              "loc": "4:25-54"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "depth": 2,
+          "source": "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nfunction encodeUriQuery(val, pctEncodeSpaces) {\n    if (pctEncodeSpaces === void 0) { pctEncodeSpaces = false; }\n    return encodeURIComponent(val).\n        replace(/%40/gi, '@').\n        replace(/%3A/gi, ':').\n        replace(/%24/g, '$').\n        replace(/%2C/gi, ',').\n        replace(/%20/g, (pctEncodeSpaces ? '%20' : '+'));\n}\nfunction forEachSorted(obj, iterator, context) {\n    if (context === void 0) { context = undefined; }\n    var keys = Object.keys(obj).sort();\n    for (var i = 0; i < keys.length; i++) {\n        iterator.call(context, obj[keys[i]], keys[i]);\n    }\n    return keys;\n}\nfunction serializeValue(v) {\n    if (typeof v === 'object')\n        return JSON.stringify(v);\n    return v.toString();\n}\nfunction encodeKeyValue(key, value) {\n    return encodeUriQuery(key) + '=' + encodeUriQuery(serializeValue(value));\n}\nfunction aggregateHttpSerializer(params) {\n    if (!params)\n        return '';\n    var parts = [];\n    forEachSorted(params, function (value, key) {\n        if (value === null || typeof value === 'undefined')\n            return;\n        if (Array.isArray(value)) {\n            for (var _i = 0, value_1 = value; _i < value_1.length; _i++) {\n                var v = value_1[_i];\n                parts.push(encodeKeyValue(key, v));\n            }\n        }\n        else {\n            parts.push(encodeKeyValue(key, value));\n        }\n    });\n    return parts.join('&');\n}\nexports.default = aggregateHttpSerializer;\n"
+        },
+        {
+          "id": 14,
+          "identifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+          "name": "./lib/index.ts",
+          "index": 0,
+          "index2": 14,
+          "size": 559,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "profile": {
+            "factory": 43,
+            "building": 1189
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [],
+          "usedExports": true,
+          "providedExports": null,
+          "depth": 0,
+          "source": "\"use strict\";\nfunction __export(m) {\n    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];\n}\nObject.defineProperty(exports, \"__esModule\", { value: true });\n__export(require(\"./aggregate-result\"));\n__export(require(\"./browser\"));\n__export(require(\"./cell\"));\n__export(require(\"./commons\"));\n__export(require(\"./cube\"));\n__export(require(\"./cuts\"));\n__export(require(\"./dimension\"));\n__export(require(\"./drilldown\"));\n__export(require(\"./hierarchy\"));\n__export(require(\"./level\"));\n__export(require(\"./paths\"));\n__export(require(\"./server\"));\n"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "moduleId": 14,
+          "module": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+          "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+          "moduleName": "./lib/index.ts",
+          "loc": "",
+          "name": "main",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/utils.ts",
+      "name": "./lib/utils.ts",
+      "index": 3,
+      "index2": 0,
+      "size": 999,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/browser.ts",
+      "issuerId": 10,
+      "issuerName": "./lib/browser.ts",
+      "profile": {
+        "factory": 658,
+        "building": 30
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/dimension.ts",
+          "module": "./lib/dimension.ts",
+          "moduleName": "./lib/dimension.ts",
+          "type": "cjs require",
+          "userRequest": "./utils",
+          "loc": "3:14-32"
+        },
+        {
+          "moduleId": 2,
+          "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/hierarchy.ts",
+          "module": "./lib/hierarchy.ts",
+          "moduleName": "./lib/hierarchy.ts",
+          "type": "cjs require",
+          "userRequest": "./utils",
+          "loc": "3:14-32"
+        },
+        {
+          "moduleId": 3,
+          "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/cell.ts",
+          "module": "./lib/cell.ts",
+          "moduleName": "./lib/cell.ts",
+          "type": "cjs require",
+          "userRequest": "./utils",
+          "loc": "3:14-32"
+        },
+        {
+          "moduleId": 5,
+          "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/cuts.ts",
+          "module": "./lib/cuts.ts",
+          "moduleName": "./lib/cuts.ts",
+          "type": "cjs require",
+          "userRequest": "./utils",
+          "loc": "6:12-30"
+        },
+        {
+          "moduleId": 6,
+          "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/cube.ts",
+          "module": "./lib/cube.ts",
+          "moduleName": "./lib/cube.ts",
+          "type": "cjs require",
+          "userRequest": "./utils",
+          "loc": "3:14-32"
+        },
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/level.ts",
+          "module": "./lib/level.ts",
+          "moduleName": "./lib/level.ts",
+          "type": "cjs require",
+          "userRequest": "./utils",
+          "loc": "3:14-32"
+        },
+        {
+          "moduleId": 8,
+          "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/paths.ts",
+          "module": "./lib/paths.ts",
+          "moduleName": "./lib/paths.ts",
+          "type": "cjs require",
+          "userRequest": "./utils",
+          "loc": "3:12-30"
+        },
+        {
+          "moduleId": 10,
+          "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/browser.ts",
+          "module": "./lib/browser.ts",
+          "moduleName": "./lib/browser.ts",
+          "type": "cjs require",
+          "userRequest": "./utils",
+          "loc": "3:14-32"
+        },
+        {
+          "moduleId": 11,
+          "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/drilldown.ts",
+          "module": "./lib/drilldown.ts",
+          "moduleName": "./lib/drilldown.ts",
+          "type": "cjs require",
+          "userRequest": "./utils",
+          "loc": "6:12-30"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 2,
+      "source": "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nfunction _split_with_negative_lookbehind(str, regex, lb) {\n    var splits = [];\n    for (var match = regex.exec(str); match != null; match = regex.exec(str)) {\n        if (str.substr(match.index - lb.length, lb.length) !== lb) {\n            splits.push(str.substring(0, match.index));\n            str = str.substring(Math.min(match.index + match[0].length, str.length));\n            regex.lastIndex = 0;\n        }\n        else {\n            // match has the lookbehind, must exclude\n        }\n    }\n    splits.push(str);\n    return splits;\n}\nexports._split_with_negative_lookbehind = _split_with_negative_lookbehind;\nfunction find(arr, fn) {\n    var result = arr.filter(fn);\n    if (result.length > 0)\n        return result[0];\n    return undefined;\n}\nexports.find = find;\nfunction pick(obj, keys) {\n    var result = {};\n    for (var k in obj) {\n        result[k] = obj[k];\n    }\n    return result;\n}\nexports.pick = pick;\n"
+    },
+    {
+      "id": 1,
+      "identifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/dimension.ts",
+      "name": "./lib/dimension.ts",
+      "index": 5,
+      "index2": 4,
+      "size": 3559,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+      "issuerId": 14,
+      "issuerName": "./lib/index.ts",
+      "profile": {
+        "factory": 25,
+        "building": 642,
+        "dependencies": 154
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 5,
+          "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/cuts.ts",
+          "module": "./lib/cuts.ts",
+          "moduleName": "./lib/cuts.ts",
+          "type": "cjs require",
+          "userRequest": "./dimension",
+          "loc": "3:18-40"
+        },
+        {
+          "moduleId": 6,
+          "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/cube.ts",
+          "module": "./lib/cube.ts",
+          "moduleName": "./lib/cube.ts",
+          "type": "cjs require",
+          "userRequest": "./dimension",
+          "loc": "5:18-40"
+        },
+        {
+          "moduleId": 11,
+          "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/drilldown.ts",
+          "module": "./lib/drilldown.ts",
+          "moduleName": "./lib/drilldown.ts",
+          "type": "cjs require",
+          "userRequest": "./dimension",
+          "loc": "3:18-40"
+        },
+        {
+          "moduleId": 14,
+          "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+          "module": "./lib/index.ts",
+          "moduleName": "./lib/index.ts",
+          "type": "cjs require",
+          "userRequest": "./dimension",
+          "loc": "12:9-31"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 1,
+      "source": "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar utils_1 = require(\"./utils\");\nvar level_1 = require(\"./level\");\nvar hierarchy_1 = require(\"./hierarchy\");\nexports.DIMENSION_STRING_SEPARATOR_CHAR = ':';\nexports.DIMENSION_STRING_SEPARATOR = /:/g;\nexports.SPLIT_DIMENSION_STRING = '__within_split__';\nvar Dimension = (function () {\n    function Dimension(md) {\n        var _this = this;\n        this.name = md.name;\n        !md.label || (this.label = md.label);\n        !md.description || (this.description = md.description);\n        !md.default_hierarchy_name || (this.default_hierarchy_name = md.default_hierarchy_name);\n        !md.info || (this.info = md.info);\n        !md.role || (this.role = md.role);\n        !md.cardinality || (this.cardinality = md.cardinality);\n        !md.nonadditive || (this.nonadditive = md.nonadditive);\n        !md.is_flat || (this.is_flat = md.is_flat);\n        this.levels = [];\n        if (md.levels) {\n            this.levels = md.levels.map(function (level) { return new level_1.Level(_this.name, level); });\n        }\n        this.hierarchies = {};\n        if (md.hierarchies) {\n            for (var i in md.hierarchies) {\n                var hier = new hierarchy_1.Hierarchy(md.hierarchies[i], this);\n                this.hierarchies[hier.name] = hier;\n            }\n        }\n        // if no default_hierarchy_name defined, use first hierarchy's name.\n        if (!this.default_hierarchy_name && md.hierarchies\n            && md.hierarchies.length > 0) {\n            this.default_hierarchy_name = md.hierarchies[0].name;\n        }\n    }\n    Object.defineProperty(Dimension.prototype, \"default_hierarchy\", {\n        get: function () {\n            return this.hierarchies[this.default_hierarchy_name];\n        },\n        enumerable: true,\n        configurable: true\n    });\n    Dimension.prototype.level = function (name) {\n        return utils_1.find(this.levels, function (level) { return level.name === name; });\n    };\n    Dimension.prototype.toString = function () {\n        return this.name;\n    };\n    Object.defineProperty(Dimension.prototype, \"display_label\", {\n        get: function () {\n            return this.label || this.name;\n        },\n        enumerable: true,\n        configurable: true\n    });\n    Object.defineProperty(Dimension.prototype, \"isDateDimension\", {\n        get: function () {\n            // Inform if a dimension is a date dimension and can be used as a date\n            // filter (i.e. with date selection tool).\n            return ((this.role === 'time') &&\n                ((!('cv-datefilter' in this.info)) || (this.info['cv-datefilter'] === true)));\n        },\n        enumerable: true,\n        configurable: true\n    });\n    Object.defineProperty(Dimension.prototype, \"hierarchies_count\", {\n        get: function () {\n            var _this = this;\n            return Object.keys(this.hierarchies).reduce(function (count, hiename) {\n                if (_this.hierarchies.hasOwnProperty(hiename))\n                    return count + 1;\n                return count;\n            }, 0);\n        },\n        enumerable: true,\n        configurable: true\n    });\n    return Dimension;\n}());\nexports.Dimension = Dimension;\nexports.SPLIT_DIMENSION = new Dimension({\n    name: exports.SPLIT_DIMENSION_STRING,\n    label: 'Matches Filters',\n    hierarchies: [{ name: 'default', levels: [exports.SPLIT_DIMENSION_STRING] }],\n    levels: [{ name: exports.SPLIT_DIMENSION_STRING, attributes: [{ name: exports.SPLIT_DIMENSION_STRING }], label: 'Matches Filters' }]\n});\n"
+    },
+    {
+      "id": 2,
+      "identifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/hierarchy.ts",
+      "name": "./lib/hierarchy.ts",
+      "index": 8,
+      "index2": 3,
+      "size": 1389,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+      "issuerId": 14,
+      "issuerName": "./lib/index.ts",
+      "profile": {
+        "factory": 26,
+        "building": 697,
+        "dependencies": 98
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/dimension.ts",
+          "module": "./lib/dimension.ts",
+          "moduleName": "./lib/dimension.ts",
+          "type": "cjs require",
+          "userRequest": "./hierarchy",
+          "loc": "5:18-40"
+        },
+        {
+          "moduleId": 5,
+          "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/cuts.ts",
+          "module": "./lib/cuts.ts",
+          "moduleName": "./lib/cuts.ts",
+          "type": "cjs require",
+          "userRequest": "./hierarchy",
+          "loc": "4:18-40"
+        },
+        {
+          "moduleId": 11,
+          "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/drilldown.ts",
+          "module": "./lib/drilldown.ts",
+          "moduleName": "./lib/drilldown.ts",
+          "type": "cjs require",
+          "userRequest": "./hierarchy",
+          "loc": "4:18-40"
+        },
+        {
+          "moduleId": 14,
+          "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+          "module": "./lib/index.ts",
+          "moduleName": "./lib/index.ts",
+          "type": "cjs require",
+          "userRequest": "./hierarchy",
+          "loc": "14:9-31"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 1,
+      "source": "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar utils_1 = require(\"./utils\");\nexports.HIERARCHY_PREFIX_CHAR = '@';\nvar Hierarchy = (function () {\n    function Hierarchy(attrs, dimension) {\n        this.name = attrs.name;\n        this.label = attrs.label;\n        this.description = attrs.description;\n        this.info = attrs.info;\n        var level_names = attrs.levels || [];\n        this.levels = level_names.map(function (name) { return dimension.level(name); });\n    }\n    Hierarchy.prototype.toString = function () {\n        return exports.HIERARCHY_PREFIX_CHAR + this.name;\n    };\n    Hierarchy.prototype.display_label = function () {\n        return this.label || this.name;\n    };\n    Hierarchy.prototype.level_index = function (level) {\n        return this.levels.indexOf(utils_1.find(this.levels, function (lvl) { return lvl.name === level.name; }));\n    };\n    Hierarchy.prototype.readCell = function (cell, level_limit) {\n        var result = [];\n        for (var _i = 0, _a = this.levels; _i < _a.length; _i++) {\n            var level = _a[_i];\n            var info = level.readCell(cell);\n            if (info !== null)\n                result.push(info);\n            if (level_limit && level_limit.name === level.name)\n                break;\n        }\n        return result;\n    };\n    return Hierarchy;\n}());\nexports.Hierarchy = Hierarchy;\n"
+    },
+    {
+      "id": 3,
+      "identifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/cell.ts",
+      "name": "./lib/cell.ts",
+      "index": 2,
+      "index2": 7,
+      "size": 1533,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+      "issuerId": 14,
+      "issuerName": "./lib/index.ts",
+      "profile": {
+        "factory": 23,
+        "building": 260,
+        "dependencies": 538
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 9,
+          "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/aggregate-result.ts",
+          "module": "./lib/aggregate-result.ts",
+          "moduleName": "./lib/aggregate-result.ts",
+          "type": "cjs require",
+          "userRequest": "./cell",
+          "loc": "3:13-30"
+        },
+        {
+          "moduleId": 10,
+          "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/browser.ts",
+          "module": "./lib/browser.ts",
+          "moduleName": "./lib/browser.ts",
+          "type": "cjs require",
+          "userRequest": "./cell",
+          "loc": "4:13-30"
+        },
+        {
+          "moduleId": 14,
+          "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+          "module": "./lib/index.ts",
+          "moduleName": "./lib/index.ts",
+          "type": "cjs require",
+          "userRequest": "./cell",
+          "loc": "8:9-26"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 1,
+      "source": "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar utils_1 = require(\"./utils\");\nvar cuts_1 = require(\"./cuts\");\nvar Cell = (function () {\n    function Cell(cube, cuts) {\n        this.cube = cube;\n        this.cuts = cuts.map(function (prop) { return cuts_1.cut_from_aggregate_result(cube, prop); });\n    }\n    Cell.prototype.slice = function (new_cut) {\n        var cuts = [];\n        var new_cut_pushed = false;\n        for (var _i = 0, _a = this.cuts; _i < _a.length; _i++) {\n            var cut = _a[_i];\n            if (cut.dimension === new_cut.dimension) {\n                cuts.push(new_cut.toCellProps());\n                new_cut_pushed = true;\n            }\n            else {\n                cuts.push(cut.toCellProps());\n            }\n        }\n        if (!new_cut_pushed) {\n            cuts.push(new_cut.toCellProps());\n        }\n        return new Cell(this.cube, cuts);\n    };\n    Cell.prototype.cut_for_dimension = function (name) {\n        return utils_1.find(this.cuts, function (cut) { return cut.dimension.name === name; });\n    };\n    Cell.prototype.toString = function () {\n        return (this.cuts || []).map(function (cut) { return cut.toString(); })\n            .join(cuts_1.CUT_STRING_SEPARATOR_CHAR);\n    };\n    return Cell;\n}());\nexports.Cell = Cell;\nfunction cell_from_string(cube, cut_param_value) {\n    return new Cell(cube, cuts_1.cuts_from_string(cube, cut_param_value).map(function (cut) { return cut.toCellProps(); }));\n}\nexports.cell_from_string = cell_from_string;\n"
+    },
+    {
+      "id": 4,
+      "identifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/commons.ts",
+      "name": "./lib/commons.ts",
+      "index": 7,
+      "index2": 1,
+      "size": 2905,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+      "issuerId": 14,
+      "issuerName": "./lib/index.ts",
+      "profile": {
+        "factory": 24,
+        "building": 343
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 6,
+          "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/cube.ts",
+          "module": "./lib/cube.ts",
+          "moduleName": "./lib/cube.ts",
+          "type": "cjs require",
+          "userRequest": "./commons",
+          "loc": "4:16-36"
+        },
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/level.ts",
+          "module": "./lib/level.ts",
+          "moduleName": "./lib/level.ts",
+          "type": "cjs require",
+          "userRequest": "./commons",
+          "loc": "4:16-36"
+        },
+        {
+          "moduleId": 14,
+          "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+          "module": "./lib/index.ts",
+          "moduleName": "./lib/index.ts",
+          "type": "cjs require",
+          "userRequest": "./commons",
+          "loc": "9:9-29"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 1,
+      "source": "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar ENonAdditivity;\n(function (ENonAdditivity) {\n    ENonAdditivity[ENonAdditivity[\"None\"] = 0] = \"None\";\n    ENonAdditivity[ENonAdditivity[\"Time\"] = 1] = \"Time\";\n    ENonAdditivity[ENonAdditivity[\"All\"] = 2] = \"All\";\n})(ENonAdditivity || (ENonAdditivity = {}));\nvar Measure = (function () {\n    function Measure(props) {\n        this.name = props.name;\n        this.label = props.label;\n        this.order = props.order;\n        this.info = (props.info || {});\n        this.description = props.description;\n        this.format = props.format;\n        this.missing_value = props.missing_value;\n        switch (props.nonadditive) {\n            case 'none':\n                this.nonadditive = ENonAdditivity.None;\n                break;\n            case 'time':\n                this.nonadditive = ENonAdditivity.Time;\n                break;\n            case 'all':\n                this.nonadditive = ENonAdditivity.All;\n                break;\n        }\n        this.expression = props.expression;\n        if (props.aggregates) {\n            this.aggregates = props.aggregates;\n        }\n    }\n    return Measure;\n}());\nexports.Measure = Measure;\nvar MeasureAggregate = (function () {\n    function MeasureAggregate(props) {\n        this.name = props.name;\n        this.ref = props.ref;\n        this.label = props.label;\n        this.order = props.order;\n        this.info = (props.info || {});\n        this.description = props.description;\n        this.format = props.format;\n        this.missing_value = props.missing_value;\n        this.nonadditive = props.nonadditive;\n        this.function = props.function;\n        this.formula = props.formula;\n        this.expression = props.expression;\n        this.measure = props.measure;\n    }\n    return MeasureAggregate;\n}());\nexports.MeasureAggregate = MeasureAggregate;\nvar DetailAttribute = (function () {\n    function DetailAttribute(props) {\n        this.ref = props.ref;\n        this.name = props.name;\n        this.label = props.label;\n        this.order = props.order;\n        this.info = (props.info || {});\n        this.description = props.description;\n        this.format = props.format;\n        this.missing_value = props.missing_value;\n        this.locales = props.locales;\n    }\n    return DetailAttribute;\n}());\nexports.DetailAttribute = DetailAttribute;\nexports.ATTRIBUTE_STRING_SEPARATOR_CHAR = '.';\nvar Attribute = (function () {\n    function Attribute(props) {\n        this.ref = props.ref;\n        this.name = props.name;\n        this.label = props.label;\n        this.order = props.order;\n        this.info = (props.info || {});\n        this.description = props.description;\n        this.format = props.format;\n        this.missing_value = props.missing_value;\n        this.locales = props.locales;\n    }\n    return Attribute;\n}());\nexports.Attribute = Attribute;\n"
+    },
+    {
+      "id": 5,
+      "identifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/cuts.ts",
+      "name": "./lib/cuts.ts",
+      "index": 4,
+      "index2": 6,
+      "size": 7847,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+      "issuerId": 14,
+      "issuerName": "./lib/index.ts",
+      "profile": {
+        "factory": 25,
+        "building": 609,
+        "dependencies": 187
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 3,
+          "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/cell.ts",
+          "module": "./lib/cell.ts",
+          "moduleName": "./lib/cell.ts",
+          "type": "cjs require",
+          "userRequest": "./cuts",
+          "loc": "4:13-30"
+        },
+        {
+          "moduleId": 11,
+          "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/drilldown.ts",
+          "module": "./lib/drilldown.ts",
+          "moduleName": "./lib/drilldown.ts",
+          "type": "cjs require",
+          "userRequest": "./cuts",
+          "loc": "5:13-30"
+        },
+        {
+          "moduleId": 14,
+          "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+          "module": "./lib/index.ts",
+          "moduleName": "./lib/index.ts",
+          "type": "cjs require",
+          "userRequest": "./cuts",
+          "loc": "11:9-26"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 1,
+      "source": "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar dimension_1 = require(\"./dimension\");\nvar hierarchy_1 = require(\"./hierarchy\");\nvar paths = require(\"./paths\");\nvar utils = require(\"./utils\");\nexports.CUT_INVERSION_CHAR = '!';\nexports.RANGE_CUT_SEPARATOR_CHAR = '-';\nexports.SET_CUT_SEPARATOR_CHAR = ';';\nexports.CUT_STRING_SEPARATOR_CHAR = '|';\nexports.CUT_STRING_SEPARATOR = /\\|/g;\nexports.RANGE_CUT_SEPARATOR = /-/g;\nexports.SET_CUT_SEPARATOR = /;/g;\nexports.CUT_PARSE_REGEXP = new RegExp('^(' + exports.CUT_INVERSION_CHAR + '?)(\\\\w+)(?:' + hierarchy_1.HIERARCHY_PREFIX_CHAR + '(\\\\w+))?' + dimension_1.DIMENSION_STRING_SEPARATOR_CHAR + '(.*)$');\nvar SerializedCut = (function () {\n    function SerializedCut() {\n    }\n    SerializedCut.prototype.toString = function (cube) {\n        var invert = this.invert ? '!' : '';\n        var dimParts = cube.dimensionParts(this.dimension);\n        var cutDim = dimParts.dimension.name + (dimParts.hierarchy.name !== 'default' ? '@' + dimParts.hierarchy.name : '');\n        return invert + cutDim + ':' + this.value;\n    };\n    SerializedCut.prototype.toCut = function (cube) {\n        return cut_from_string(cube, serializedCutToString(cube, this));\n    };\n    return SerializedCut;\n}());\nexports.SerializedCut = SerializedCut;\nvar PointCut = (function () {\n    function PointCut(dimension, hierarchy, path, invert, level_depth) {\n        this.type = 'point';\n        this.dimension = dimension;\n        this.hierarchy = dimension.hierarchies[hierarchy] || dimension.default_hierarchy;\n        this.path = path;\n        this.level_depth = level_depth;\n        this.invert = !!invert;\n        this.level = this.hierarchy.levels[level_depth - 1];\n    }\n    PointCut.prototype.toString = function () {\n        var path_str = paths.string_from_path(this.path);\n        return (this.invert ? exports.CUT_INVERSION_CHAR : '') +\n            this.dimension.toString() +\n            (this.hierarchy.toString() || '') +\n            dimension_1.DIMENSION_STRING_SEPARATOR_CHAR +\n            path_str;\n    };\n    PointCut.prototype.toCellProps = function () {\n        return {\n            type: 'point',\n            dimension: this.dimension.name,\n            hierarchy: this.hierarchy.name,\n            path: this.path,\n            level_depth: this.level_depth,\n            invert: this.invert\n        };\n    };\n    return PointCut;\n}());\nexports.PointCut = PointCut;\nvar SetCut = (function () {\n    function SetCut(dimension, hierarchy, path_set, invert, level_depth) {\n        this.type = 'set';\n        this.dimension = dimension;\n        this.hierarchy = dimension.hierarchies[hierarchy] || dimension.default_hierarchy;\n        this.paths = path_set;\n        this.level_depth = level_depth;\n        this.invert = !!invert;\n        this.level = this.hierarchy.levels[level_depth - 1];\n    }\n    SetCut.prototype.toString = function () {\n        var path_str = this.paths.map(paths.string_from_path).join(exports.SET_CUT_SEPARATOR_CHAR);\n        return (this.invert ? exports.CUT_INVERSION_CHAR : '') +\n            this.dimension.toString() +\n            (this.hierarchy.toString() || '') +\n            dimension_1.DIMENSION_STRING_SEPARATOR_CHAR +\n            path_str;\n    };\n    SetCut.prototype.toCellProps = function () {\n        return {\n            type: 'point',\n            dimension: this.dimension.name,\n            hierarchy: this.hierarchy.name,\n            paths: this.paths,\n            level_depth: this.level_depth,\n            invert: this.invert\n        };\n    };\n    return SetCut;\n}());\nexports.SetCut = SetCut;\nvar RangeCut = (function () {\n    function RangeCut(dimension, hierarchy, from_path, to_path, invert, level_depth) {\n        this.type = 'range';\n        this.dimension = dimension;\n        this.hierarchy = dimension.hierarchies[hierarchy] || dimension.default_hierarchy;\n        if (from_path === null && to_path === null) {\n            throw 'Either from_path or to_path must be defined for RangeCut';\n        }\n        this.from_path = from_path;\n        this.to_path = to_path;\n        this.level_depth = level_depth;\n        this.invert = !!invert;\n    }\n    RangeCut.prototype.toString = function () {\n        var path_str = paths.string_from_path(this.from_path) +\n            exports.RANGE_CUT_SEPARATOR_CHAR +\n            paths.string_from_path(this.to_path);\n        return (this.invert ? exports.CUT_INVERSION_CHAR : '') +\n            this.dimension.toString() +\n            (this.hierarchy.toString() || '') +\n            dimension_1.DIMENSION_STRING_SEPARATOR_CHAR +\n            path_str;\n    };\n    RangeCut.prototype.toCellProps = function () {\n        return {\n            type: 'point',\n            dimension: this.dimension.name,\n            hierarchy: this.hierarchy.name,\n            from_path: this.from_path,\n            to_path: this.to_path,\n            level_depth: this.level_depth,\n            invert: this.invert\n        };\n    };\n    return RangeCut;\n}());\nexports.RangeCut = RangeCut;\nfunction cut_from_aggregate_result(cube, cut) {\n    var dim = cube.dimension(cut.dimension);\n    switch (cut.type) {\n        case 'point':\n            return new PointCut(dim, cut.hierarchy, cut.path, cut.invert, cut.level_depth);\n        case 'set':\n            return new SetCut(dim, cut.hierarchy, cut.paths, cut.invert, cut.level_depth);\n        case 'range':\n            return new RangeCut(dim, cut.hierarchy, cut.from_path, cut.to_path, cut.invert, cut.level_depth);\n        default:\n            return undefined;\n    }\n}\nexports.cut_from_aggregate_result = cut_from_aggregate_result;\nfunction cut_from_string(cube, cut_string) {\n    // parse out invert, dim_name, hierarchy, and path thingy\n    var match = exports.CUT_PARSE_REGEXP.exec(cut_string);\n    if (!match) {\n        return null;\n    }\n    var invert = !!(match[1]), dim_name = match[2], hierarchy = match[3] || null, path_thingy = match[4];\n    var dimension = cube.dimension(dim_name);\n    // if path thingy splits on set separator, make a SetCut.\n    var splits = utils._split_with_negative_lookbehind(path_thingy, exports.SET_CUT_SEPARATOR, '\\\\');\n    if (splits.length > 1) {\n        var _paths = splits.map(function (ss) { return paths.path_from_string(ss); });\n        return new SetCut(dimension, hierarchy, _paths, invert, _paths[0].length);\n    }\n    // else if path thingy splits into two on range separator, make a RangeCut.\n    splits = utils._split_with_negative_lookbehind(path_thingy, exports.RANGE_CUT_SEPARATOR, '\\\\');\n    if (splits.length === 2) {\n        var from_path = splits[0] ? paths.path_from_string(splits[0]) : null;\n        var to_path = splits[1] ? paths.path_from_string(splits[1]) : null;\n        return new RangeCut(dimension, hierarchy, from_path, to_path, invert, from_path.length);\n    }\n    // else it's a PointCut.\n    var path = paths.path_from_string(path_thingy);\n    return new PointCut(dimension, hierarchy, path, invert, path.length);\n}\nexports.cut_from_string = cut_from_string;\nfunction cuts_from_string(cube, cut_param_value) {\n    var cut_strings = utils._split_with_negative_lookbehind(cut_param_value, exports.CUT_STRING_SEPARATOR, '\\\\');\n    return (cut_strings || []).map(function (e) { return cut_from_string(cube, e); });\n}\nexports.cuts_from_string = cuts_from_string;\nfunction serializedCutToString(cube, e) {\n    var invert = e.invert ? '!' : '';\n    var dimParts = cube.dimensionParts(e.dimension);\n    var cutDim = dimParts.dimension.name + (dimParts.hierarchy.name !== 'default' ? '@' + dimParts.hierarchy.name : '');\n    return invert + cutDim + ':' + e.value;\n}\nexports.serializedCutToString = serializedCutToString;\nfunction cutFromSerializedCut(cube, serializedCut) {\n    return cut_from_string(cube, serializedCutToString(cube, serializedCut));\n}\nexports.cutFromSerializedCut = cutFromSerializedCut;\n"
+    },
+    {
+      "id": 6,
+      "identifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/cube.ts",
+      "name": "./lib/cube.ts",
+      "index": 11,
+      "index2": 10,
+      "size": 4878,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+      "issuerId": 14,
+      "issuerName": "./lib/index.ts",
+      "profile": {
+        "factory": 24,
+        "building": 539,
+        "dependencies": 258
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 12,
+          "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/server.ts",
+          "module": "./lib/server.ts",
+          "moduleName": "./lib/server.ts",
+          "type": "cjs require",
+          "userRequest": "./cube",
+          "loc": "3:13-30"
+        },
+        {
+          "moduleId": 14,
+          "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+          "module": "./lib/index.ts",
+          "moduleName": "./lib/index.ts",
+          "type": "cjs require",
+          "userRequest": "./cube",
+          "loc": "10:9-26"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 1,
+      "source": "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar utils_1 = require(\"./utils\");\nvar commons_1 = require(\"./commons\");\nvar dimension_1 = require(\"./dimension\");\nvar Cube = (function () {\n    function Cube(metadata) {\n        this.name = metadata.name;\n        this.label = metadata.label;\n        this.description = metadata.description;\n        this.key = metadata.key;\n        this.info = metadata.info;\n        this.category = metadata.category;\n        this.features = metadata.features;\n        this.measures = (metadata.measures || []).map(function (m) { return new commons_1.Measure(m); });\n        this.aggregates = (metadata.aggregates || []).map(function (m) { return new commons_1.MeasureAggregate(m); });\n        this.details = (metadata.details || []).map(function (m) { return new commons_1.Attribute(m); });\n        this.dimensions = (metadata.dimensions || []).map(function (dim) { return new dimension_1.Dimension(dim); });\n    }\n    Cube.prototype.dimension = function (name) {\n        // Return a dimension with given name\n        return utils_1.find(this.dimensions, function (dim) { return dim.name === name; });\n    };\n    Cube.prototype.cvdim_dim = function (dimensionString) {\n        // Get a dimension by name. Accepts dimension hierarchy and level in the input string.\n        var dimname = dimensionString;\n        if (dimensionString.indexOf('@') > 0) {\n            dimname = dimensionString.split('@')[0];\n        }\n        else if (dimensionString.indexOf(':') > 0) {\n            dimname = dimensionString.split(':')[0];\n        }\n        return this.dimension(dimname);\n    };\n    Cube.prototype.dimensionParts = function (dimensionString) {\n        // Get a dimension info by name. Accepts dimension hierarchy and level in the input string.\n        var dim = this.cvdim_dim(dimensionString);\n        var hie = dim.default_hierarchy;\n        if (dimensionString.indexOf('@') > 0) {\n            var hierarchyName = dimensionString.split('@')[1].split(':')[0];\n            hie = dim.hierarchies[hierarchyName];\n        }\n        var lev;\n        var levelIndex = 0;\n        if (dimensionString.indexOf(':') > 0) {\n            var levelname = dimensionString.split(':')[1];\n            lev = dim.level(levelname);\n            for (levelIndex = 0; levelIndex < hie.levels.length && hie.levels[levelIndex] !== lev; levelIndex++)\n                ;\n        }\n        else {\n            lev = hie.levels[0];\n        }\n        var depth = null;\n        for (var i = 0; i < hie.levels.length; i++) {\n            if (lev.name === hie.levels[i].name) {\n                depth = i + 1;\n                break;\n            }\n        }\n        return {\n            dimension: dim,\n            level: lev,\n            levelIndex: levelIndex,\n            depth: depth,\n            hierarchy: hie,\n            label: dim.label + (hie.name !== 'default' ? (' - ' + hie.label) : '') + (hie.levels.length > 1 ? (' / ' + lev.label) : ''),\n            labelShort: (dim.label + (hie.levels.length > 1 ? (' / ' + lev.label) : '')),\n            labelNoLevel: dim.label + (hie.name !== 'default' ? (' - ' + hie.label) : ''),\n            fullDrilldownValue: dim.name + (hie.name !== 'default' ? ('@' + hie.name) : '') + ':' + lev.name,\n            drilldownDimension: dim.name + '@' + hie.name + ':' + lev.name,\n            drilldownDimensionPlus: (hie.levels.length > 1 && levelIndex < hie.levels.length - 1) ? (dim.name + '@' + hie.name + ':' + hie.levels[levelIndex + 1].name) : null,\n            drilldownDimensionMinus: (hie.levels.length > 1 && levelIndex > 0) ? (dim.name + '@' + hie.name + ':' + hie.levels[levelIndex - 1].name) : null,\n            cutDimension: dim.name + (hie.name !== 'default' ? '@' + hie.name : '')\n        };\n    };\n    Cube.prototype.dimensionPartsFromCut = function (cut) {\n        var parts = this.dimensionParts(cut.dimension);\n        if (!parts)\n            return null;\n        var depth = (cut.value.split(';')[0].match(/,/g) || []).length + 1;\n        var dimstring = parts.dimension.name + '@' + parts.hierarchy.name + ':' + parts.hierarchy.levels[depth - 1].name;\n        return this.dimensionParts(dimstring);\n    };\n    Cube.prototype.measureAggregates = function (measureName) {\n        return this.aggregates.filter(function (ia) { return measureName ? ia.measure === measureName : !ia.measure; });\n    };\n    Cube.prototype.aggregateFromName = function (aggregateName) {\n        return utils_1.find(this.aggregates, function (ia) { return aggregateName ? ia.name === aggregateName : !ia.measure; });\n    };\n    Object.defineProperty(Cube.prototype, \"dateDimensions\", {\n        get: function () {\n            return this.dimensions.filter(function (d) { return d.isDateDimension; });\n        },\n        enumerable: true,\n        configurable: true\n    });\n    return Cube;\n}());\nexports.Cube = Cube;\n"
+    },
+    {
+      "id": 7,
+      "identifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/level.ts",
+      "name": "./lib/level.ts",
+      "index": 6,
+      "index2": 2,
+      "size": 3717,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+      "issuerId": 14,
+      "issuerName": "./lib/index.ts",
+      "profile": {
+        "factory": 27,
+        "building": 718,
+        "dependencies": 76
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/dimension.ts",
+          "module": "./lib/dimension.ts",
+          "moduleName": "./lib/dimension.ts",
+          "type": "cjs require",
+          "userRequest": "./level",
+          "loc": "4:14-32"
+        },
+        {
+          "moduleId": 14,
+          "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+          "module": "./lib/index.ts",
+          "moduleName": "./lib/index.ts",
+          "type": "cjs require",
+          "userRequest": "./level",
+          "loc": "15:9-27"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 1,
+      "source": "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar utils_1 = require(\"./utils\");\nvar commons_1 = require(\"./commons\");\nvar DIMENSION_STRING_SEPARATOR_CHAR = ':';\nvar Level = (function () {\n    function Level(dimension_name, props) {\n        this.dimension_name = dimension_name;\n        this.name = props.name;\n        !props.label || (this.label = props.label);\n        !props.description || (this.description = props.description);\n        !props.info || (this.info = props.info);\n        this._key = props.key;\n        this._label_attribute = props.label_attribute;\n        this._order_attribute = props.order_attribute;\n        !props.role || (this.role = props.role);\n        !props.cardinality || (this.cardinality = props.cardinality);\n        this.nonadditive = props.nonadditive;\n        this.attributes = [];\n        if (props.attributes) {\n            this.attributes = props.attributes.map(function (attr) { return new commons_1.Attribute(attr); });\n        }\n    }\n    Object.defineProperty(Level.prototype, \"key\", {\n        get: function () {\n            var _this = this;\n            return utils_1.find(this.attributes, function (attr) { return attr.name === _this._key; }) || this.attributes[0];\n        },\n        enumerable: true,\n        configurable: true\n    });\n    Object.defineProperty(Level.prototype, \"label_attribute\", {\n        get: function () {\n            var _this = this;\n            // Label attribute is either explicitly specified or it is second attribute if there are more\n            // than one, otherwise it is first\n            var the_attr = null;\n            if (this._label_attribute) {\n                the_attr = utils_1.find(this.attributes, function (attr) { return attr.name === _this._label_attribute; });\n            }\n            return the_attr || this.key;\n        },\n        enumerable: true,\n        configurable: true\n    });\n    Object.defineProperty(Level.prototype, \"order_attribute\", {\n        get: function () {\n            var _this = this;\n            var the_attr = null;\n            if (this._order_attribute) {\n                the_attr = utils_1.find(this.attributes, function (attr) { return attr.name === _this._order_attribute; });\n            }\n            return the_attr || this.key;\n        },\n        enumerable: true,\n        configurable: true\n    });\n    Level.prototype.toString = function () {\n        return this.name;\n    };\n    Level.prototype.readCell = function (cell) {\n        if (!(this.key.ref in cell))\n            return null;\n        var result = {\n            key: cell[this.key.ref],\n            label: cell[this.label_attribute.ref],\n            orderValue: cell[this.order_attribute.ref],\n            info: {}\n        };\n        for (var _i = 0, _a = this.attributes; _i < _a.length; _i++) {\n            var attribute = _a[_i];\n            result.info[attribute.ref] = cell[attribute.ref];\n        }\n        return result;\n    };\n    Object.defineProperty(Level.prototype, \"display_name\", {\n        get: function () {\n            return this.label || this.name;\n        },\n        enumerable: true,\n        configurable: true\n    });\n    Object.defineProperty(Level.prototype, \"full_name\", {\n        get: function () {\n            return this.dimension_name + commons_1.ATTRIBUTE_STRING_SEPARATOR_CHAR + this.name;\n        },\n        enumerable: true,\n        configurable: true\n    });\n    Object.defineProperty(Level.prototype, \"full_name_for_drilldown\", {\n        get: function () {\n            return this.dimension_name + DIMENSION_STRING_SEPARATOR_CHAR + this.name;\n        },\n        enumerable: true,\n        configurable: true\n    });\n    return Level;\n}());\nexports.Level = Level;\n"
+    },
+    {
+      "id": 8,
+      "identifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/paths.ts",
+      "name": "./lib/paths.ts",
+      "index": 9,
+      "index2": 5,
+      "size": 1274,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+      "issuerId": 14,
+      "issuerName": "./lib/index.ts",
+      "profile": {
+        "factory": 27,
+        "building": 735,
+        "dependencies": 59
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 5,
+          "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/cuts.ts",
+          "module": "./lib/cuts.ts",
+          "moduleName": "./lib/cuts.ts",
+          "type": "cjs require",
+          "userRequest": "./paths",
+          "loc": "5:12-30"
+        },
+        {
+          "moduleId": 14,
+          "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+          "module": "./lib/index.ts",
+          "moduleName": "./lib/index.ts",
+          "type": "cjs require",
+          "userRequest": "./paths",
+          "loc": "16:9-27"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 1,
+      "source": "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar utils = require(\"./utils\");\nexports.PATH_PART_ESCAPE_PATTERN = /([\\\\!|:;,-])/g;\nexports.PATH_PART_UNESCAPE_PATTERN = /\\\\([\\\\!|:;,-])/g;\nexports.NULL_PART_STRING = '__null__';\nexports.PATH_STRING_SEPARATOR_CHAR = ',';\nexports.PATH_STRING_SEPARATOR = /,/g;\nfunction _escape_path_part(part) {\n    if (part == null) {\n        return exports.NULL_PART_STRING;\n    }\n    return part.toString().replace(exports.PATH_PART_ESCAPE_PATTERN, function (match, b1) { return '\\\\' + b1; });\n}\nfunction _unescape_path_part(part) {\n    if (part === exports.NULL_PART_STRING) {\n        return null;\n    }\n    return part.replace(exports.PATH_PART_UNESCAPE_PATTERN, function (match, b1) { return b1; });\n}\nfunction string_from_path(path) {\n    return (path || []).map(function (element) { return _escape_path_part(element); }).join(exports.PATH_STRING_SEPARATOR_CHAR);\n}\nexports.string_from_path = string_from_path;\nfunction path_from_string(path_string) {\n    var paths = utils._split_with_negative_lookbehind(path_string, exports.PATH_STRING_SEPARATOR, '\\\\');\n    var parsed = (paths || []).map(function (e) { return _unescape_path_part(e); });\n    return parsed;\n}\nexports.path_from_string = path_from_string;\n"
+    },
+    {
+      "id": 9,
+      "identifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/aggregate-result.ts",
+      "name": "./lib/aggregate-result.ts",
+      "index": 1,
+      "index2": 8,
+      "size": 622,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+      "issuerId": 14,
+      "issuerName": "./lib/index.ts",
+      "profile": {
+        "factory": 21,
+        "building": 92,
+        "dependencies": 1
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 14,
+          "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+          "module": "./lib/index.ts",
+          "moduleName": "./lib/index.ts",
+          "type": "cjs require",
+          "userRequest": "./aggregate-result",
+          "loc": "6:9-38"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 1,
+      "source": "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar cell_1 = require(\"./cell\");\nvar AggregateResult = (function () {\n    function AggregateResult(cube, props) {\n        this.cell = new cell_1.Cell(cube, props.cell);\n        this.summary = props.summary;\n        this.cells = props.cells;\n        this.total_cell_count = props.total_cell_count;\n        this.aggregates = props.aggregates;\n        this.levels = props.levels;\n        this.attributes = props.attributes;\n        this.has_split = props.has_split;\n    }\n    return AggregateResult;\n}());\nexports.AggregateResult = AggregateResult;\n"
+    },
+    {
+      "id": 10,
+      "identifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/browser.ts",
+      "name": "./lib/browser.ts",
+      "index": 10,
+      "index2": 9,
+      "size": 671,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+      "issuerId": 14,
+      "issuerName": "./lib/index.ts",
+      "profile": {
+        "factory": 23,
+        "building": 139,
+        "dependencies": 0
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 14,
+          "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+          "module": "./lib/index.ts",
+          "moduleName": "./lib/index.ts",
+          "type": "cjs require",
+          "userRequest": "./browser",
+          "loc": "7:9-29"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 1,
+      "source": "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar utils_1 = require(\"./utils\");\nvar cell_1 = require(\"./cell\");\nvar Browser = (function () {\n    function Browser(server, cube) {\n        this.server = server;\n        this.cube = cube;\n    }\n    Browser.prototype.full_cube = function () {\n        return new cell_1.Cell(this.cube, []);\n    };\n    Browser.prototype.aggregate = function (args) {\n        return this.server.query('aggregate', this.cube.name, utils_1.pick(args || {}, [\n            'cut', 'measure', 'drilldown', 'split', 'order', 'page', 'pagesize'\n        ]), {});\n    };\n    return Browser;\n}());\nexports.Browser = Browser;\n"
+    },
+    {
+      "id": 11,
+      "identifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/drilldown.ts",
+      "name": "./lib/drilldown.ts",
+      "index": 12,
+      "index2": 11,
+      "size": 3089,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+      "issuerId": 14,
+      "issuerName": "./lib/index.ts",
+      "profile": {
+        "factory": 26,
+        "building": 674,
+        "dependencies": 121
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 14,
+          "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+          "module": "./lib/index.ts",
+          "moduleName": "./lib/index.ts",
+          "type": "cjs require",
+          "userRequest": "./drilldown",
+          "loc": "13:9-31"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 1,
+      "source": "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar dimension_1 = require(\"./dimension\");\nvar hierarchy_1 = require(\"./hierarchy\");\nvar cuts_1 = require(\"./cuts\");\nvar utils = require(\"./utils\");\nexports.DRILLDOWN_PARSE_REGEXP = new RegExp('^(\\\\w+)(?:' + hierarchy_1.HIERARCHY_PREFIX_CHAR + '(\\\\w+))?(?:' + dimension_1.DIMENSION_STRING_SEPARATOR_CHAR + '(\\\\w+))?$');\nvar Drilldown = (function () {\n    function Drilldown(dimension, hierarchy, level) {\n        this.dimension = dimension;\n        this.hierarchy = hierarchy ? dimension.hierarchies[hierarchy] : dimension.default_hierarchy;\n        this.level = dimension.level(level) || this.hierarchy.levels[0];\n        if (!this.hierarchy)\n            throw 'Drilldown cannot recognize hierarchy ' + hierarchy + ' for dimension ' + dimension.toString();\n        if (!this.level)\n            throw 'Drilldown cannot recognize level ' + level + ' for dimension ' + dimension.toString();\n    }\n    Drilldown.prototype.toString = function () {\n        return '' + this.dimension.toString() + this.hierarchy.toString() +\n            dimension_1.DIMENSION_STRING_SEPARATOR_CHAR + this.level.toString();\n    };\n    Drilldown.prototype.keysInResultCell = function () {\n        var _this = this;\n        var saw_this_level = false;\n        return this.hierarchy.levels\n            .filter(function (level) { return (level.key === _this.level.key && (saw_this_level = true)) || (!saw_this_level); })\n            .map(function (level) { return level.key.ref; });\n    };\n    Drilldown.prototype.labelsInResultCell = function () {\n        var _this = this;\n        var saw_this_level = false;\n        return this.hierarchy.levels\n            .filter(function (level) { return (level.key === _this.level.key && (saw_this_level = true)) || (!saw_this_level); })\n            .map(function (level) { return level.label_attribute.ref; });\n    };\n    return Drilldown;\n}());\nexports.default = Drilldown;\nfunction drilldown_from_string(cube, drilldown_string) {\n    var match = exports.DRILLDOWN_PARSE_REGEXP.exec(drilldown_string);\n    if (!match) {\n        return null;\n    }\n    var dim_name = match[1], hierarchy = match[2] || null, level = match[3] || null;\n    var dimension = cube.dimension(dim_name);\n    if (!dimension)\n        if (dim_name === dimension_1.SPLIT_DIMENSION_STRING)\n            dimension = dimension_1.SPLIT_DIMENSION;\n        else\n            return null;\n    return new Drilldown(dimension, hierarchy, level);\n}\nexports.drilldown_from_string = drilldown_from_string;\nfunction drilldowns_from_string(cube, drilldown_param_value) {\n    var dd_strings = utils._split_with_negative_lookbehind(drilldown_param_value, cuts_1.CUT_STRING_SEPARATOR, '\\\\');\n    return (dd_strings || []).map(function (e) { return drilldown_from_string(cube, e); });\n}\nexports.drilldowns_from_string = drilldowns_from_string;\nfunction drilldowns_to_string(drilldowns) {\n    return drilldowns.map(function (d) { return d.toString(); }).join(cuts_1.CUT_STRING_SEPARATOR_CHAR);\n}\nexports.drilldowns_to_string = drilldowns_to_string;\n"
+    },
+    {
+      "id": 12,
+      "identifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/server.ts",
+      "name": "./lib/server.ts",
+      "index": 13,
+      "index2": 13,
+      "size": 2225,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+      "issuerId": 14,
+      "issuerName": "./lib/index.ts",
+      "profile": {
+        "factory": 28,
+        "building": 784,
+        "dependencies": 1
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 14,
+          "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+          "module": "./lib/index.ts",
+          "moduleName": "./lib/index.ts",
+          "type": "cjs require",
+          "userRequest": "./server",
+          "loc": "17:9-28"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 1,
+      "source": "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar cube_1 = require(\"./cube\");\nvar query_serializer_1 = require(\"./query-serializer\");\nfunction getJSON(url) {\n    return fetch(url, {\n        method: 'GET',\n        headers: {\n            'Content-Type': 'application/json'\n        }\n    }).catch(function (reason) { throw reason; })\n        .then(function (response) { return response.json(); });\n}\nvar Server = (function () {\n    function Server(baseUrl) {\n        this.baseUrl = baseUrl;\n        this._cube_list = [];\n        this._cubes = {};\n    }\n    Server.prototype.query = function (query, cube_name, args, options) {\n        var query_args = query_serializer_1.default(args);\n        var url = this.baseUrl + \"cube/\" + cube_name + \"/\" + query;\n        if (query_args.length > 0)\n            url += '?' + query_args;\n        return getJSON(url);\n    };\n    Server.prototype.connect = function () {\n        var _this = this;\n        var cubeInfoPromise = getJSON(this.baseUrl + '/info');\n        return cubeInfoPromise.then(function (info) {\n            _this.server_version = info.cubes_version;\n            _this.cubes_version = info.cubes_version;\n            _this.api_version = info.api_version;\n            _this.info = info;\n            return _this.load_cube_list();\n        }, function (err) { throw err; });\n    };\n    Server.prototype.load_cube_list = function () {\n        var _this = this;\n        var cubesListPromise = getJSON(this.baseUrl + '/cubes');\n        return cubesListPromise.then(function (cubes_list) {\n            _this._cube_list = cubes_list;\n            return cubes_list;\n        }, function (err) { throw err; });\n    };\n    Server.prototype.get_cube = function (name) {\n        var _this = this;\n        if (name in this._cubes)\n            return Promise.resolve(this._cubes[name]);\n        var cubePromise = getJSON(this.baseUrl + '/cube/' + encodeURI(name) + '/model');\n        return cubePromise.then(function (cube_props) {\n            _this._cubes[name] = new cube_1.Cube(cube_props);\n            return _this._cubes[name];\n        }, function (err) { throw err; });\n    };\n    return Server;\n}());\nexports.Server = Server;\nexports.default = Server;\n"
+    },
+    {
+      "id": 13,
+      "identifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/query-serializer.ts",
+      "name": "./lib/query-serializer.ts",
+      "index": 14,
+      "index2": 12,
+      "size": 1525,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/server.ts",
+      "issuerId": 12,
+      "issuerName": "./lib/server.ts",
+      "profile": {
+        "factory": 11,
+        "building": 42
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 12,
+          "moduleIdentifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/server.ts",
+          "module": "./lib/server.ts",
+          "moduleName": "./lib/server.ts",
+          "type": "cjs require",
+          "userRequest": "./query-serializer",
+          "loc": "4:25-54"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 2,
+      "source": "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nfunction encodeUriQuery(val, pctEncodeSpaces) {\n    if (pctEncodeSpaces === void 0) { pctEncodeSpaces = false; }\n    return encodeURIComponent(val).\n        replace(/%40/gi, '@').\n        replace(/%3A/gi, ':').\n        replace(/%24/g, '$').\n        replace(/%2C/gi, ',').\n        replace(/%20/g, (pctEncodeSpaces ? '%20' : '+'));\n}\nfunction forEachSorted(obj, iterator, context) {\n    if (context === void 0) { context = undefined; }\n    var keys = Object.keys(obj).sort();\n    for (var i = 0; i < keys.length; i++) {\n        iterator.call(context, obj[keys[i]], keys[i]);\n    }\n    return keys;\n}\nfunction serializeValue(v) {\n    if (typeof v === 'object')\n        return JSON.stringify(v);\n    return v.toString();\n}\nfunction encodeKeyValue(key, value) {\n    return encodeUriQuery(key) + '=' + encodeUriQuery(serializeValue(value));\n}\nfunction aggregateHttpSerializer(params) {\n    if (!params)\n        return '';\n    var parts = [];\n    forEachSorted(params, function (value, key) {\n        if (value === null || typeof value === 'undefined')\n            return;\n        if (Array.isArray(value)) {\n            for (var _i = 0, value_1 = value; _i < value_1.length; _i++) {\n                var v = value_1[_i];\n                parts.push(encodeKeyValue(key, v));\n            }\n        }\n        else {\n            parts.push(encodeKeyValue(key, value));\n        }\n    });\n    return parts.join('&');\n}\nexports.default = aggregateHttpSerializer;\n"
+    },
+    {
+      "id": 14,
+      "identifier": "/Users/abbas/Projects/MyProjects/cubes.ts/node_modules/ts-loader/index.js!/Users/abbas/Projects/MyProjects/cubes.ts/lib/index.ts",
+      "name": "./lib/index.ts",
+      "index": 0,
+      "index2": 14,
+      "size": 559,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "profile": {
+        "factory": 43,
+        "building": 1189
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 0,
+      "source": "\"use strict\";\nfunction __export(m) {\n    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];\n}\nObject.defineProperty(exports, \"__esModule\", { value: true });\n__export(require(\"./aggregate-result\"));\n__export(require(\"./browser\"));\n__export(require(\"./cell\"));\n__export(require(\"./commons\"));\n__export(require(\"./cube\"));\n__export(require(\"./cuts\"));\n__export(require(\"./dimension\"));\n__export(require(\"./drilldown\"));\n__export(require(\"./hierarchy\"));\n__export(require(\"./level\"));\n__export(require(\"./paths\"));\n__export(require(\"./server\"));\n"
+    }
+  ],
+  "filteredModules": 0,
+  "children": []
+}

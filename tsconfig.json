@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "sourceMap": false,
+    "rootDir": "./lib",
+    "outDir": "./dist",
+    "skipLibCheck": true,
+    "typeRoots": [
+      "./typings"
+    ],
+    "lib": [
+      "es2015",
+      "dom"
+    ],
+    "types": [],
+    "module": "commonjs"
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
